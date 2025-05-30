@@ -47,7 +47,7 @@ A responsive promotional website for a real-life rock covers band caled Tilt-Mod
 - As a **fan or potential customer**, I want to see photos, videos, and learn more about the band.
 - As a **venue manager or agency**, I want to contact and book the band.
 - As an **event/party planner**, I want to quickly check the band’s music style and contact the band to check price and availability.
-- As a **visitor**, I want to easily navigate the site and find social links.
+- As a **first-time visitor**, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can easily navigate the site and find information and social links quickly and efficiently without frustration.
 
 ## 🎸 Website Goals and Objectives
 
