@@ -8,3 +8,10 @@
     --primary-color: #000000;/* black */
     --secondary-color: #f5f5dc; /* cream */
 }
+
+/* Global styles */
+
+body {
+  font-family: var(--primary-font);
+}
+
