@@ -19,7 +19,8 @@ body {
 /* Grid visualisation for CSS testing */
 .header div,
 main div,
-footer div {
+footer div,
+section {
     background-color: var(--secondary-color);
     border: 0.5px solid black;
 }
