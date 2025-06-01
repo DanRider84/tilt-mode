@@ -7,6 +7,8 @@
     --secondary-font: "Luckiest Guy", cursive;
     --primary-color: #000000;/* black */
     --secondary-color: #f5f5dc; /* cream */
+    --tertiary-color: #FFD700; /* gold */
+
 }
 
 /* Global styles */
@@ -14,6 +16,11 @@
 body {
   font-family: var(--primary-font);
   background-color: var(--primary-color);
+}
+
+#booking-button {
+  background-color: var(--secondary-color);
+  color: 
 }
 
 /* Grid visualisation for CSS testing */
@@ -25,3 +32,8 @@ section {
     border: 0.5px solid black;
 }
 
+/* Navigation bar */
+
+nav {
+  background-color: #b72323;
+}
