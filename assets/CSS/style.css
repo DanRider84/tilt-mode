@@ -18,6 +18,7 @@ body {
 }
 
 /* Grid visualisation for CSS testing */
+/*
 .header div,
 main div,
 footer div,
@@ -25,6 +26,7 @@ section {
     background-color: var(--primary-color);
     border: 0.5px solid white;
 }
+*/
 
 /* Navigation bar */
 
@@ -67,7 +69,7 @@ nav {
 
   /* Hover Effect - Reverse colors */
   .navbar-toggler:hover {
-    background-color: #FFd700; /* Gold button on hover */
+    background-color: var(--tertiary-color); /* Gold button on hover */
   }
 
   .navbar-toggler:hover .navbar-toggler-icon {
@@ -102,4 +104,22 @@ header {
 #band-logo-header {
   max-width: 300px;
   height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: var(--tertiary-color);
+}
+
+#social {
+border-bottom: solid #000000 1px;
+}
+
+#social i {
+  font-size: 30px;
+}
+
+#copyright {
+  font-family: var(--primary-font);
+  font-size: 0.5rem;
 }
