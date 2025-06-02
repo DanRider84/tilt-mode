@@ -17,7 +17,44 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav>Navigation</nav>
+       <nav id="navbar" class="navbar navbar-expand-lg my-1" data-bs-theme="dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div>
+                <!-- Logo --> 
+                <a class="navbar-brand m-0 pb-4" href="./index.html">
+                    <img id="stamp-logo" src="./assets/images/Tilt mode.png" class="img-fluid" alt="band logo">
+                </a>
+            </div>
+            
+
+            <!-- Hamburger button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#the-band">The Band</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./booking.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id=booking-button href="./booking.html" class="btn custom-button ms-lg-3">Book Tilt Mode</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header class="header container-fluid m-0 p-0">
