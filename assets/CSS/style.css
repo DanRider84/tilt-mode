@@ -113,6 +113,7 @@ footer {
 
 #social {
 border-bottom: solid #000000 1px;
+height: auto;
 }
 
 #social i {
