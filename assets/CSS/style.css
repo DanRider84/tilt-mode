@@ -33,7 +33,8 @@ li {
   color: var(--secondary-color);
 }
 
-header > div {
+header > div,
+#band-profile {
   border-left: solid #000000 30px;
   border-right: solid #000000 40px;
 }
@@ -175,6 +176,10 @@ header {
 #services-header {
   padding-left: 20px;
   margin: 10px;
+}
+
+#services-header > h2 {
+  text-shadow: var(--secondary-color) 0px 2px;
 }
 
 #services-table {
