@@ -51,15 +51,6 @@ i {
   padding-right: 3px;
 }
 
-#services-table {
-  border-top: solid #ffd700 4px;
-  border-bottom: solid #ffd700 4px;
-}
-
-#header-section > br {
-  border-top: solid #ffd700 4px;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -162,18 +153,19 @@ header {
 #band-logo-header {
   max-width: 300px;
   height: auto;
-  border-top: solid #ffd700 4px;
 }
 
+#band-profile-container {
+   border: solid #1e90ff 4px;
+}
 
 #bio {
   background-color: var(--secondary-color);
-  border-bottom: solid var(--tertiary-color);
   margin: 0;
 }
 
 #bio p {
-  margin-bottom:8px;
+  margin-bottom: 8px;
 }
 
 #bio strong {
@@ -182,6 +174,7 @@ header {
 
 
 /* Services Section */
+
 
 #services {
   background-color: var(--primary-color);
@@ -204,6 +197,8 @@ header {
 
 #services-table {
   margin: 20px;
+  border-top: solid #ffd700 4px;
+  border-bottom: solid #ffd700 4px;
 }
 
 #services-table .heading p {
