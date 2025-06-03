@@ -17,6 +17,40 @@ body {
   background-color: var(--primary-color);
 }
 
+p {
+  color: var(--secondary-color);
+  font-size: 12px;
+}
+
+h2 {
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font);
+  padding-top: 10px;
+  text-shadow: #f5f5dc 0px 0.5px;
+}
+
+li {
+  color: var(--secondary-color);
+}
+
+header > div {
+  border-left: solid #000000 30px;
+  border-right: solid #000000 40px;
+}
+
+i {
+  padding-right: 3px;
+}
+
+#services-table {
+  border-top: solid #ffd700 4px;
+  border-bottom: solid #ffd700 4px;
+}
+
+#header-section > br {
+  border-top: solid #ffd700 4px;
+}
+
 /* Grid visualisation for CSS testing */
 /*
 .header div,
@@ -35,7 +69,8 @@ nav {
 }
 
 #navbar {
-  padding: 0px;
+  padding-bottom: 10px;
+  border-bottom: solid #ff1493 4px;
 }
 
 #stamp-logo {
@@ -78,7 +113,7 @@ nav {
 
     /* Default (unselected) menu text */
   .navbar-nav .nav-link {
-    color: #f5f5dc; /* Beige */
+    color: #f5f5dc; /* Cream */
     transition: color 0.3s ease-in-out; /* Smooth transition */
   }
 
@@ -91,10 +126,12 @@ nav {
 
 /* Header */
 header {
-  background-color: #ffffff;
   width: 100%;
   margin: 0;
   padding: 0;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 9px;
 }
 
 #header-section {
@@ -104,6 +141,84 @@ header {
 #band-logo-header {
   max-width: 300px;
   height: auto;
+  border-top: solid #ffd700 4px;
+}
+
+
+#bio {
+  background-color: var(--secondary-color);
+  border-bottom: solid var(--tertiary-color);
+  margin: 0;
+}
+
+#bio p {
+  margin-bottom:8px;
+}
+
+#bio strong {
+  color: #000000;
+}
+
+
+/* Services Section */
+
+#services {
+  background-color: var(--primary-color);
+  font-size: 12px;
+}
+
+#services p {
+  margin: 0;
+  padding: 0;
+}
+
+#services-header {
+  padding-left: 20px;
+  margin: 10px;
+}
+
+#services-table {
+  margin: 20px;
+}
+
+#services-table .heading p {
+  font-size: 20px;
+}
+
+/* Adds space between icon and title */
+.services {
+  padding: 5px;
+}
+
+.heading {
+  font-family: var(--secondary-font);
+  text-shadow: #000000 2px 2px;
+
+}
+
+#availability {
+  background-color: #ff1493;
+}
+
+#set-times {
+  background-color: #1e90ff;
+}
+
+#we-provide {
+  background-color: #32cd32;
+}
+
+#options {
+  background-color: var(--tertiary-color);
+
+}
+
+.info {
+  background-color: #f5f5dc;
+}
+
+.info p {
+  color: #000000;
 }
 
 /* Footer */
