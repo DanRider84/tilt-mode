@@ -174,8 +174,8 @@ header {
 }
 
 #services-header {
-  padding-left: 20px;
-  margin: 10px;
+
+  margin-left: 20px;
 }
 
 #services-header > h2 {
@@ -225,6 +225,22 @@ header {
 .info p {
   color: #000000;
 }
+
+/* Band profile */
+
+#band-profile .card h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+#band-profile .card p {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: #000000;
+}
+
+
+
 
 /* Footer */
 footer {
