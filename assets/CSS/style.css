@@ -12,6 +12,13 @@
 
 /* Global styles */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--primary-font);
   background-color: var(--primary-color);
@@ -36,7 +43,8 @@ li {
 header > div,
 #band-profile {
   border-left: solid #000000 30px;
-  border-right: solid #000000 40px;
+  border-right: solid #000000 30px;
+  border-bottom: solid #000000 30px;
 }
 
 i {
@@ -52,6 +60,11 @@ i {
   border-top: solid #ffd700 4px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Grid visualisation for CSS testing */
 /*
 .header div,
@@ -62,6 +75,13 @@ section {
     border: 0.5px solid white;
 }
 */
+
+/* Testing for right-margin bug  */
+body {
+  border: 2px solid red;
+  overflow-x: hidden; /* Use this after debugging */
+}
+
 
 /* Navigation bar */
 
@@ -168,13 +188,13 @@ header {
   font-size: 12px;
 }
 
-#services p {
+#services-header h2,
+#services-header p {
   margin: 0;
   padding: 0;
 }
 
 #services-header {
-
   margin-left: 20px;
 }
 
