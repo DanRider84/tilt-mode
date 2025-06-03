@@ -68,10 +68,10 @@ section {
 */
 
 /* Testing for right-margin bug  */
-body {
+/* body {
   border: 2px solid red;
-  overflow-x: hidden; /* Use this after debugging */
-}
+  overflow-x: hidden; /*
+  */
 
 
 /* Navigation bar */
@@ -146,32 +146,40 @@ header {
   font-size: 9px;
 }
 
-#header-section {
-  background-color: var(--secondary-color);
-}
-
 #band-logo-header {
   max-width: 300px;
   height: auto;
 }
 
-#band-profile-container {
-   border: solid #1e90ff 4px;
+#logo-wrapper {
+  background-color: #f6efdf;
 }
 
 #bio {
-  background-color: var(--secondary-color);
-  margin: 0;
-}
-
-#bio p {
   margin-bottom: 8px;
 }
 
-#bio strong {
-  color: #000000;
+
+#bio h2 {
+  text-shadow: #000000 3px 3px 2px;
+  
 }
 
+#bio p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#bio-header {
+  background-color: #1e90ff;
+  border-top: solid #800080 1px;
+  border-bottom: solid #800080 1px;
+}
+
+#bio-body {
+  background-color: #f6efdf;
+}
 
 /* Services Section */
 
@@ -193,6 +201,10 @@ header {
 
 #services-header > h2 {
   text-shadow: var(--secondary-color) 0px 2px;
+}
+
+#services-header > p {
+  font-size: 14px
 }
 
 #services-table {
@@ -243,6 +255,10 @@ header {
 
 /* Band profile */
 
+#band-profile .card {
+  background-color: #f5f5dc;
+}
+
 #band-profile .card h3 {
   font-family: var(--secondary-font);
   font-size: 24px;
@@ -254,8 +270,13 @@ header {
   color: #000000;
 }
 
+#band-profile h3 {
+  color: #800080;
+}
 
-
+#band-members {
+  background-color: #FFd700;
+}
 
 /* Footer */
 footer {

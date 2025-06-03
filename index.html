@@ -68,27 +68,29 @@
         <div id="header-section" class="container-fluid text-center justify-content-center m-0 p-0">
             
             <!-- Wrap additional container around bio section -->
-            <div id="band-profile-container">
+            <div id="band-profile-container m-0 p-0">
                 <!-- Band logo -->
-                <img id="band-logo-header" src="./assets/images/header-logo.png" alt="band logo colourful">
+                <!-- Add image wrapper for cream background-->
+                <div id="logo-wrapper" class="flex-d row justify-content-center">
+                    <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful" width="200px">
+                </div>
+
                 <!-- Band bio -->
-                <div id="bio" class="row justify-content-center align-items-center mb-0">
-                    <p>
-                        <strong>Looking for unforgettable live music for your venue or special occasion?</strong>
-                    </p>
-                    <p>
-                        <strong>Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
-                                songs everyone loves — from 90s classics to modern hits.
-                        </strong>
-                    </p>
-                    <p>
-                        <strong>With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages 
-                                singing along and dancing all night. </strong>
-                    </p>
-                    <p>
-                        <strong>Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to 
-                                remember.</strong>
-                    </p>
+                <div id="bio" class="row justify-content-center align-items-center">
+                    <div id="bio-header">
+                        <h2 class>
+                            <strong>Looking for unforgettable live music for your venue or special occasion?</strong>
+                        </h2>
+                    </div>
+                    <div id="bio-body" class="pt-3">
+                        <p>Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
+                            songs everyone loves — from 90s classics to modern hits.</p>
+                        <p>With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages singing along 
+                            and dancing all night.</p>
+                        <p> Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to remember.</p>
+                    </div>
+                 
+                    
                 </div>
 
             </div>
@@ -109,7 +111,7 @@
             <div id="services-table">
                 <br>
                 <div id="availability" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-calendar-days"></i> Availability</p>
+                    <p class="mb-0"><i class="fa-solid fa-calendar-days"></i>  Availability</p>
                 </div>
                 <div class="col-12 services info">
                     <p class="mb-0 py-2">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
@@ -117,7 +119,7 @@
                     <br>
                     
                 <div id="set-times" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-music"></i> Set times</p>
+                    <p class="mb-0"><i class="fa-solid fa-music"></i>  Set times</p>
                 </div>
                 <div class="col-12 services info">
                     <p class="mb-0 py-2">Option of either 45 mins / 90mins / 120mins sets</p>
@@ -125,7 +127,7 @@
                     <br>
 
                 <div id="we-provide" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-volume-high"></i> Audio & Lighting</p>
+                    <p class="mb-0"><i class="fa-solid fa-volume-high"></i>  Audio & Lighting</p>
                 </div>
                 <div class="col-12 services info">
                     <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
@@ -133,7 +135,7 @@
                     <br>
 
                 <div id="options" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-headphones"></i>Other Options</p>
+                    <p class="mb-0"><i class="fa-solid fa-headphones"></i>  Other Options</p>
                 </div>
 
                 <div class="col-12 services info">
@@ -148,14 +150,14 @@
         <section id="band-profile" class="container-fluid px-0">
             <div class="row">
                 <div class="col-12">
-                    <h2 class ="my-4">The band</h2>
+                    <h2 class ="my-4 text-center">The band</h2>
                 </div>
             </div>
 
-            <div class="row g-3 bg-black px-0 py-0 justify-content-center">
-
+            <div id="band-members" class="row g-3 bg-black px-0 py-0 justify-content-center">
+                
                 <!-- Chris -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 18rem;">
+                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100 pb-0" style="max-width: 22rem;">
                     <img src="./assets/images/Chris.png" alt="Chris singing on stage" class="img-fluid mb-1 mt-3">
                     <div class="card-body">
                         <h3>Chris Morley</h3>
@@ -164,7 +166,7 @@
                 </div>
                     
                 <!-- Gary -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 18rem;">
+                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
                     <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
                     <div class="card-body">
                         <h3>Gary Stone</h3>
@@ -173,7 +175,7 @@
                 </div>
 
                 <!-- Callum -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 18rem;">
+                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
                     <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
                     <div class="card-body">
                         <h3>Callum Aves</h3>
@@ -182,7 +184,7 @@
                 </div>
 
                 <!-- Rhys -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 18rem;">
+                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
                     <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
                     <div class="card-body">
                         <h3>Rhys Best</h3>
