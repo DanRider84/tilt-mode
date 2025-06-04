@@ -37,21 +37,24 @@ A responsive promotional website for a real-life rock covers band caled Tilt-Mod
 
 ## 🎯 User Goals
 
-- Learn about the band and its members.
-- View media from live shows or recorded sessions.
-- Follow the band on social media.
-- Book the band for private or public events.
+- User friendly navigation.
+- Site works well on all devices.
+- Easy mechanism for contacting/booking the band.
+- Access to band information and media.
+- Connect with band via social media.
+
 
 ## 👤 User Stories
 
-- As a **fan or potential clientr**, I want to see photos, videos, and learn more about the band, so that I can engage with their content and decide if I like their style.
-- As a **venue manager or agency**, I want to contact and book the band.
-- As an **event/party planner**, I want to quickly check the band’s music style and contact the band to check price and availability, so that I can determine if they are suitable for my event.
-- As a **first-time visitor**, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can easily navigate the site and find information and social links quickly and efficiently without frustration.
-- As a **first-time visitor**, I want to see a high-impact video of the band as soon as I land on the homepage, so that I get an immediate sense of their performance style and energy.
-- As a **fan or potential client**, I want to view a full gallery of the band’s photos, so that I can see what their performances look like and get a better feel for their vibe and style.
-- As a **potential client** or agent, I want to read reviews or testimonials from other clients, so that I feel confident in booking or following the band.
-- As a **fan**, I want to sign up for updates via email, so that I can be informed of new shows, music, or news from the band.
+- As a user I want to learn more about the band and its members.
+- As a user, I want to see the band’s photos and videos.
+- As a user, I want to be able to connect with the band via social media.
+- As a user, I need to be able to book the band for an event with ease.
+- As a user, I want to be able to contact the band with queries or special requests.
+- As a user, I want to be able to use website on range of devices.
+- As a user, I want navigation to be intuitive.
+- As a user, I want the content to be accessible for anyone with diverse needs.
+
 
 ## 🎸 Website Goals and Objectives
 
@@ -90,8 +93,8 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 ### Colour Scheme
 
 - The color scheme chosen is based on the band's logo shown in the header.
-- The header and footer will have a black (#00000) background to suit the rock theme of the band along with beige (#F5f5DC) for contrast.
-- Other colors in the palette will be used throughout the body sections of the website to capture the fun/party theme represented by those colors, also in contrast of the black
+- The header and footer will have a black (#00000) background to suit the rock theme of the band.
+- Other colors in the palette will be used throughout the website to capture the 90s retro fun/party theme represented by those colors, also in contrast of the black.
 
 <img src="./docs/color-palette.png" alt="Colors Scheme" style="max-width: 100%;">
 
@@ -100,8 +103,8 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 
 ### Images
 
-- Sample imagery includes band members (on homepage) and event performances in a dedicated gallery section. Images are displayed in grid form with responsiveness across devices.
-- There are two band logos used in the design - the first is in color and used in the header section, the second is in grey/white and used as a background image which will move vertically across when the user scrolls up and down the page.
+- Sample imagery includes a picture of the whole band along with individual band member photos displayed in grid form with responsiveness across devices.
+- The band logo is used as a hero image and the navigation bar contains a separate image which consitsts of an extract of text from the bands logo showing the band's name.
 
 ### Responsiveness
 
@@ -112,31 +115,35 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 ### Existing Features
 
 #### Header
-- Contains site logo, navigation menu, and links to social media.
+- Contains the band's logo as a hero image, followed by a band bio.
 
 #### Footer
-- Includes social media links and copyright.
+- Contains social media links and copyright.
 
 #### Additional Sections
-- Embedded Youtube promo video of band performance used in the header of the homepage in the same manner as a'hero image'.
-- The Band (a bio on each band member accompanied by images - on the homepage)
-- Testimonials (also on home-page)
-- Gallery (photos of the band's performances - a separate page)
-- Booking form (a separate page)
+- The Band: a section containing band images and details of the band members.
+- What we Provide: a section with details of the band's services.
+- Booking form.
+- Success page.
 
 
 ### Future Enhancements
 
 - Event calendar with upcoming gig dates.
 - Additional videos of band performances.
+- Embedded Youtube promo video of band performance - potentially below hero image.
 
 ## 🛠 Technologies Used
 
 ### Languages
-- HTML5  
-- CSS3
+- HTML  
+- CSS
 
 ### Libraries & Frameworks
+- Bootstrap
+- Google Fonts
+- Font Awesome
+- Favicon
 
 ### Tools
 - [Balsamiq](https://balsamiq.com) (wireframes)  
