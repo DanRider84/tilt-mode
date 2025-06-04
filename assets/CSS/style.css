@@ -320,6 +320,13 @@ header {
 #booking-body p {
   color: var(--tertiary-color);
   font-size: 15px;
+}
+
+/* Success page */
+#success h1 {
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+}
 
 
 /* Footer */
