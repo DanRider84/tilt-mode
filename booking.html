@@ -58,10 +58,6 @@
 
     <!-- Header -->
     <header class="header container-fluid m-0 p-0">
-        <!-- Hero section (Full Width) -->
-        <div class="container-fluid text-center m-0 p-0">  
-            <div id="hero">Hero Image/Video</div>
-        </div>
 
         <!--Bio section -->
         <div id="header-section" class="container-fluid text-center justify-content-center m-0 p-0">
@@ -74,23 +70,109 @@
                     <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful" width="200px">
                 </div>
             </div>
-            
         </div>
     </header>
 
     <main>
          <!-- Booking section -->
-        <div class="container-fluid text-center">
+        <div id="booking-section" class="container-fluid text-center">
             <div class="row">
-                <h1>Heading</h1>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
+                <div id="booking-header">
+                   <h1>Booking / Enquiry Form</h1> 
+                </div>
+                <div id="booking-body">
+                    <p>Ready to get the party started? Whether you're planning a private party, wedding
+                        reception, corporate function. pub gig or festival slot, Tilt Mode delivers high-energy live music that 
+                        gets people dancing and keeps the good vibes fowing all night. </p>
+                    <p>PWe play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
+                        Professional, reliable, and easy to work with, we bring the full package: live sound, lighting, and a setlist tailored 
+                        to your crowd.</p>
+                    <p>Use the form below to check availability, request a quote, or ask us anything. Let’s make your event one to remember!</p>  
+                </div>
+                
             </div>
         </div>
         
          <!--Booking form -->
-        <section>Booking form</section>
+        <section id="booking-form" class="container section p-4">
+            <div class="row justify content-center">
+                <div class="col-12">
+                    <form action=".success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required="">
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required="">
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required="">
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="venue-business" class="form-label">Venue/Business Name (as applicable)</label>
+                                <input class="form-control" id="venue-business" name="venue-business" type="text" required="">
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required="">
+                                    <option value="select" selected="">Select</option>
+                                    <option value="private-hire">Private hire (Birthdays, Anniversaries, Special Gatherings)</option>
+                                    <option value="hotel-resort">Hotel & resort entertainment</option>
+                                    <option value="corporate">Corporate event</option>
+                                    <option value="charity-fundraisers">Charity events & fundraisers</option>
+                                    <option value="submit"><strong>Submit a question/query</strong></option>
+                                </select>
+                            </div>
+                            <div id="bonus-options" class="col-12 col-lg-6 mb-3">
+                                <label for="bonus-options">Bonus options</label><br>
+
+                                <input type="checkbox" name="customised-set" value="customised-set">
+                                <label for="customised-set">Customised set</label><br>
+
+                                <input type="checkbox" name="dj-playlist" value="dj-playlist">
+                                <label for="dj-playlist"></label>DJ playlist between sets<br>
+
+                                <input type="checkbox" name="first-dance" value="first-dance">
+                                <label for="first-dance"></label>First dance request<br>
+
+                                <input type="checkbox" name="other" value="other">
+                                <label for="other">Other</label><br>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="set-time">Set-time</label><br>
+
+                                <input type="radio" name="45-mins" value="45 mins">
+                                <label for="45-mins">45 mins</label><br>
+                                <input type="radio" name="90-mins" value="90 mins">
+                                <label for="90-mins">90 mins</label><br>
+                                <input type="radio" name="120-mins" value="120 mins">
+                                <label for="120-mins">120 mins</label><br>
+                                <input type="radio" name="other" value="Other (please describe below)">
+                                <label for="other">Other</label><br>
+                            </div>
+                            <div id="booking-date" class="col-12 col-lg-3 mb-3">
+                                <label for="booking-date-time">Booking date</label>
+                                <input type="date" name="booking-date-time">
+                            </div>
+
+                             <div id="booking-time" class="col-12 col-lg-3 mb-3">
+                                <label for="booking-date-time">Booking time</label>
+                                <input type="time" name="booking-date-time">
+                            </div>
+                            <div id="message" class="col-12 mb-">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message"></textarea>
+                            </div>  
+                            </div>
+                            <button type="submit" class="booking-button mt-3">Submit</button>
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </section>
     </main>
     
     <!-- Footer -->
