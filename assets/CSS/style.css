@@ -309,17 +309,19 @@ header {
   color: var(--secondary-color);
 }
 
-
 #booking-body {
   background-color: #1e90ff;
   padding: 20px 20px 0 20px;
   color: var(--secondary-color);
   text-shadow: var(--tertiary-color) 1px 1px;
+  border-top: solid #FFd700 4px;
+  border-bottom: solid #FFd700 4px;
 }
 
 #booking-body p {
   color: var(--tertiary-color);
   font-size: 15px;
+  border top:
 }
 
 /* Success page */
