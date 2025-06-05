@@ -47,6 +47,13 @@ header > div,
   border-bottom: solid #000000 30px;
 }
 
+#bio-header {
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font);
+  padding-top: 10px;
+  text-shadow: #f5f5dc 0px 0.5px;
+}
+
 i {
   padding-right: 3px;
 }
@@ -66,26 +73,6 @@ img {
   background-color: #32cd32;
   color: var(--secondary-color);
 }
-
-
-
-/* Grid visualisation for CSS testing */
-/*
-.header div,
-main div,
-footer div,
-section {
-    background-color: var(--primary-color);
-    border: 0.5px solid white;
-}
-*/
-
-/* Testing for right-margin bug  */
-/* body {
-  border: 2px solid red;
-  overflow-x: hidden; /*
-  */
-
 
 /* Navigation bar */
 
@@ -155,13 +142,14 @@ header {
   margin: 0;
   padding: 0;
   font-family: var(--primary-font);
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   font-size: 9px;
 }
 
 #band-logo-header {
   max-width: 300px;
   height: auto;
+  text-shadow: #000000 3px 3px 2px;
 }
 
 #logo-wrapper {
@@ -172,22 +160,11 @@ header {
   margin-bottom: 8px;
 }
 
-
-#bio h2 {
-  text-shadow: #000000 3px 3px 2px;
-  
-}
-
-#bio p {
-  color: #000000;
-  font-size: 15px;
-  font-weight: 600;
-}
-
 #bio-header {
   background-color: #1e90ff;
   border-top: solid #800080 1px;
   border-bottom: solid #800080 1px;
+  color:#FFd700
 }
 
 #bio-body {
@@ -203,8 +180,7 @@ header {
 }
 
 #services-header h2,
-#services-header p
-{
+#services-header p {
   margin: 0;
   padding: 0;
 }
