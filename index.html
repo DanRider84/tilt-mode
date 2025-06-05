@@ -20,18 +20,15 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg mx-1" data-bs-theme="dark">
-        <div class="container-fluid d-flex justify-content-between align-items-center">
-            <div>
-                <!-- Logo --> 
-                <a class="navbar-brand m-0 pb-4" href="/index.html">
-                    <img id="stamp-logo" src="./assets/images/Tilt-mode-nav-logo.png" class="img-fluid" alt="band logo">
-                </a>
-            </div>
-            
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- Logo --> 
+            <a class="navbar-brand m-0 pb-4" href="/index.html">
+                <img id="stamp-logo" src="./assets/images/Tilt-mode-nav-logo.png" class="img-fluid" alt="band logo">
+            </a>
 
             <!-- Hamburger button for mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapsse" data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +39,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home" aria-current="true">Home</a>
                     </li>
-                      <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#services">What we Offer</a>
                     </li>
                     <li class="nav-item">
@@ -61,162 +58,151 @@
 
     <!-- Header -->
     <header id="home" class="header container-fluid m-0 p-0">
-        <!-- Hero section (Full Width) -->
-        <div class="container-fluid text-center m-0 p-0">  
-            <div id="hero">Hero Image/Video</div>
-        </div>
-
-        <!--Bio section -->
-        <div id="header-section" class="container-fluid text-center justify-content-center m-0 p-0">
-            <h1 class="visually-hidden">Tilt Mode</h1>
-            
-            <!-- Wrap additional container around bio section -->
-            <div id="band-profile-container" class="m-0 p-0">
-                <!-- Band logo -->
-                <!-- Add image wrapper for cream background-->
-                <div id="logo-wrapper" class="flex-d row justify-content-center">
-                    <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
-                </div>
-
-                <!-- Band bio -->
-                <div id="bio" class="row justify-content-center align-items-center">
-                    <div id="bio-header">
-                        <p>Looking for unforgettable live music for your venue or special occasion?<p>
+        <div class="row">
+            <div id="header-section"></div>
+                <h1 class="visually-hidden">Tilt Mode</h1>
+                <div id="band-profile-container" class="col-12 m-0 p-0">
+                    <!-- Image wrapper for cream background containing band logo-->
+                    <div id="logo-wrapper" class="flex-d row justify-content-center align-items-center">
+                        <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
                     </div>
-                    <div id="bio-body" class="pt-3">
-                        <p>Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
-                            songs everyone loves — from 90s classics to modern hits.</p>
-                        <p>With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages singing along 
-                            and dancing all night.</p>
-                        <p> Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to remember.</p>
-                    </div>
-                 
-                    
+                    <!-- Bio -->
+                    <div id="bio" class="row justify-content-center align-items-center">
+                        <div id="bio-header">
+                            <p>Looking for unforgettable live music for your venue or special occasion?<p>
+                        </div>
+                        <div id="bio-body" class="pt-3">
+                            <p>Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
+                                songs everyone loves — from 90s classics to modern hits.</p>
+                            <p>With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages singing along 
+                                and dancing all night.</p>
+                            <p> Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to remember.</p>
+                        </div>
+                    </div>                
                 </div>
-
             </div>
-            
         </div>
     </header>
 
     <!-- Main sections -->
     <main>
          <!-- Description of services section -->
-        <section id="services" class="container-fluid">
-        
-            <div id="services-header">
-                <h2 class="pb-2">What we offer</h2>
-                <p><strong>Available for bookings across South East England.</strong></p>
-            </div>
-            
-            <div id="services-table">
-                <br>
-                <div id="availability" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-calendar-days"></i>  Availability</p>
-                </div>
-                <div class="col-12 services info">
-                    <p class="mb-0 py-2">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
-                </div>
-                    <br>
+        <section id="services">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div id="services-header" class="col-12">
+                        <h2 class="pb-2">What we offer</h2>
+                        <p><strong>Available for bookings across South East England.</strong></p>
+                    </div>
                     
-                <div id="set-times" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-music"></i>  Set times</p>
-                </div>
-                <div class="col-12 services info">
-                    <p class="mb-0 py-2">Option of either 45 mins / 90mins / 120mins sets</p>
-                </div>
-                    <br>
+                    <div id="services-table" class="col-12">
+                        <br>
+                        <div id="availability" class="col-12 services heading">
+                            <p class="mb-0"><i class="fa-solid fa-calendar-days"></i>  Availability</p>
+                        </div>
+                        
+                        <div class="col-12 services info">
+                            <p class="mb-0 py-2">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
+                        </div><br>
+                        
+                        <div id="set-times" class="col-12 services heading">
+                            <p class="mb-0"><i class="fa-solid fa-music"></i>  Set times</p>
+                        </div>
+                        <div class="col-12 services info">
+                            <p class="mb-0 py-2">Option of either 45 mins / 90mins / 120mins sets</p>
+                        </div><br>
 
-                <div id="we-provide" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-volume-high"></i>  Audio & Lighting</p>
-                </div>
-                <div class="col-12 services info">
-                    <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
-                </div>
-                    <br>
+                        <div id="we-provide" class="col-12 services heading">
+                            <p class="mb-0"><i class="fa-solid fa-volume-high"></i>  Audio & Lighting</p>
+                        </div>
+                        <div class="col-12 services info">
+                            <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
+                        </div><br>
 
-                <div id="options" class="col-12 services heading">
-                    <p class="mb-0"><i class="fa-solid fa-headphones"></i>  Other Options</p>
-                </div>
+                        <div id="options" class="col-12 services heading">
+                            <p class="mb-0"><i class="fa-solid fa-headphones"></i>  Other Options</p>
+                        </div>
 
-                <div class="col-12 services info">
-                    <p class="mb-0 py-2">DJ playlist between sets, customised sets first dance requests.</p>
+                        <div class="col-12 services info">
+                            <p class="mb-0 py-2">DJ playlist between sets, customised sets first dance requests.</p>
+                        </div><br>
+                    </div>
                 </div>
-                    <br>
             </div>
         </section>
         
         <!-- Band member profile section -->
 
-        <section id="the-band" class="container-fluid px-0">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class ="my-4 text-center">The band</h2>
-                </div>
-            </div>
-
-            <div id="band-members" class="row g-3 bg-black px-0 py-0 justify-content-center">
-                
-                <!-- Chris -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100 pb-0" style="max-width: 22rem;">
-                    <img src="./assets/images/Chris.png" alt="Chris singing on stage" class="img-fluid mb-1 mt-3">
-                    <div class="card-body">
-                        <h3>Chris Morley</h3>
-                        <p>Vocals & Guitar</p>
+        <section id="the-band">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class ="my-4 text-center">The band</h2>
                     </div>
-                </div>
+
+                    <div id="band-members" class="row g-3 bg-black px-0 py-0 justify-content-center">
                     
-                <!-- Gary -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
-                    <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
-                    <div class="card-body">
-                        <h3>Gary Stone</h3>
-                        <p>Vocals & Guitar</p>
-                    </div>
-                </div>
+                        <!-- Chris -->
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100 pb-0" style="max-width: 22rem;">
+                            <img src="./assets/images/Chris.png" alt="Chris singing on stage" class="img-fluid mb-1 mt-3">
+                            <div class="card-body">
+                                <h3>Chris Morley</h3>
+                                <p>Vocals & Guitar</p>
+                            </div>
+                        </div>
+                            
+                        <!-- Gary -->
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                            <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
+                            <div class="card-body">
+                                <h3>Gary Stone</h3>
+                                <p>Vocals & Guitar</p>
+                            </div>
+                        </div>
 
-                <!-- Callum -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
-                    <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
-                    <div class="card-body">
-                        <h3>Callum Aves</h3>
-                        <p>Vocals & Bass Guitar</p>
-                    </div>
-                </div>
+                        <!-- Callum -->
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                            <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
+                            <div class="card-body">
+                                <h3>Callum Aves</h3>
+                                <p>Vocals & Bass Guitar</p>
+                            </div>
+                        </div>
 
-                <!-- Rhys -->
-                <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
-                    <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
-                    <div class="card-body">
-                        <h3>Rhys Best</h3>
-                        <p>Drums</p>
+                        <!-- Rhys -->
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                            <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
+                            <div class="card-body">
+                                <h3>Rhys Best</h3>
+                                <p>Drums</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Add Booking Section -->
-        <div id="booking" class="container-fluid text-center">
+        <!-- Booking Section -->
+        <section class="container-fluid text-center">
             <div class="row">
-                <div id="booking-header">
-                   <h2>Contact</h2> 
+                <div id="booking-header" class="col-12">
+                    <h2>Contact</h2> 
                 </div>
-                <div id="booking-body">
+                <div id="booking-body" class="col-12">
                     <p>Ready to get the party started? Whether you're planning a private party, wedding
                         reception, corporate function. pub gig or festival slot, Tilt Mode delivers high-energy live music that 
-                        gets people dancing and keeps the good vibes fowing all night. </p>
+                        gets people dancing and keeps the good vibes fowing all night. 
+                    </p>
                     <p>PWe play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
                         Professional, reliable, and easy to work with, we bring the full package: live sound, lighting, and a setlist tailored 
-                        to your crowd.</p>
-                    <p>Use the form below to check availability, request a quote, or ask us anything. Let’s make your event one to remember!</p>  
+                        to your crowd.
+                    </p>
+                        <p>Use the form below to check availability, request a quote, or ask us anything. Let’s make your event one to remember!</p>  
                 </div>
-                
             </div>
-        </div>
-        
-         <!--Booking form -->
-        <section id="booking-form" class="container section p-4">
-            <div class="row justify content-center">
+
+            <!--Booking form -->
+            <div id="booking-form">
                 <div class="col-12">
                     <h3>Booking/Enquiry Form</h3>
                 </div>
@@ -251,12 +237,11 @@
                                     <option value="submit">Submit a question/query</option>
                                 </select>
                             </div>
-                            
+                                
                             <!-- Checkbox options -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <fieldset>
                                     <legend id="bonus-options">Bonus options</legend>
-
                                     <div class="form-check">
                                         <input id="customised-set" type="checkbox" name="bonus-options" value="customised-set" class="form-check-input">
                                         <label for="customised-set" class="form-check-label">Customised set</label>
@@ -278,48 +263,46 @@
                                     </div>
                                 </fieldset>
                             </div>
-                           
 
                             <!-- Radio button options -->
                             <div class="col-12 col-lg-6 mb-3">
-                                <fieldset>
-                                    <legend id="set-time">Set Time</legend>
-                                    <input id="45-mins" type="radio" name="set-times" value="45-mins">
-                                    <label for="45-mins">45 mins</label><br>
+                                    <fieldset>
+                                        <legend id="set-time">Set Time</legend>
+                                        <input id="45-mins" type="radio" name="set-times" value="45-mins">
+                                        <label for="45-mins">45 mins</label><br>
 
-                                    <input id="90-mins" type="radio" name="set-times" value="90-mins">
-                                    <label for="90-mins">90 mins</label><br>
+                                        <input id="90-mins" type="radio" name="set-times" value="90-mins">
+                                        <label for="90-mins">90 mins</label><br>
 
-                                    <input id="120-mins" type="radio" name="set-times" value="120-mins">
-                                    <label for="120-mins">120 mins</label><br>
+                                        <input id="120-mins" type="radio" name="set-times" value="120-mins">
+                                        <label for="120-mins">120 mins</label><br>
 
-                                    <input id="other-set-time" type="radio" name="set-times" value="Other">
-                                    <label for="other-set-time">Other (describe below)</label><br>
-                                </fieldset>
+                                        <input id="other-set-time" type="radio" name="set-times" value="Other">
+                                        <label for="other-set-time">Other (describe below)</label><br>
+                                    </fieldset>
                             </div>
 
                             <div class="col-12 col-lg-3 mb-3">
-                                <label for="booking-date">Booking date</label>
-                                <input id="booking-date" type="date" name="booking-date">
+                                    <label for="booking-date">Booking date</label>
+                                    <input id="booking-date" type="date" name="booking-date">
                             </div>
-
-                             <div class="col-12 col-lg-3 mb-3">
-                                <label for="booking-time">Booking time</label>
-                                <input id="booking-time" type="time" name="booking-time">
+                            <div class="col-12 col-lg-3 mb-3">
+                                    <label for="booking-time">Booking time</label>
+                                    <input id="booking-time" type="time" name="booking-time">
                             </div>
                             <div class="col-12">
                                 <h4>Message</h4>
                                 <label for="message" class="visually-hidden">message</label>
                                 <textarea id="message" class="form-control" rows="6"></textarea>
-                            </div>  
+                            </div>
+                            
+                            <!-- Submit button -->
                             <button type="submit" class="booking-button mt-3">Submit</button>
                         </div>
-                    </form>
-                </div>    
-            </div>
+                    </form>   
+                </div>
+            </div>  
         </section>
-
-
     </main>
     
     <!-- Footer -->

@@ -79,7 +79,7 @@ img {
 #navbar {
   padding-bottom: 10px;
   border-bottom: solid #ff1493 4px;
-  position: fixed;
+  position: sticky;
   left: 0;
   right: 0;
   top: 0;
