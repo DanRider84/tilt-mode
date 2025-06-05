@@ -25,7 +25,7 @@
             <div>
                 <!-- Logo --> 
                 <a class="navbar-brand m-0 pb-4" href="/index.html">
-                    <img id="stamp-logo" src="./assets/images/Tilt mode.png" class="img-fluid" alt="band logo">
+                    <img id="stamp-logo" src="./assets/images/Tilt-mode-nav-logo.png" class="img-fluid" alt="band logo">
                 </a>
             </div>
             
@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="section" href="/index.html">Home</a>
+                        <a class="nav-link" href="#home" aria-current="true">Home</a>
                     </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#services">What we Offer</a>
@@ -49,7 +49,7 @@
                         <a class="nav-link" href="#the-band">The Band</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#booking">Bookings/Contact</a>
+                        <a class="nav-link" href="#booking">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a id=booking-button href="#booking" class="btn custom-button ms-lg-3">Book Tilt Mode</a>
@@ -60,7 +60,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="header container-fluid m-0 p-0">
+    <header id="home" class="header container-fluid m-0 p-0">
         <!-- Hero section (Full Width) -->
         <div class="container-fluid text-center m-0 p-0">  
             <div id="hero">Hero Image/Video</div>
@@ -70,11 +70,11 @@
         <div id="header-section" class="container-fluid text-center justify-content-center m-0 p-0">
             
             <!-- Wrap additional container around bio section -->
-            <div id="band-profile-container m-0 p-0">
+            <div id="band-profile-container" class="m-0 p-0">
                 <!-- Band logo -->
                 <!-- Add image wrapper for cream background-->
                 <div id="logo-wrapper" class="flex-d row justify-content-center">
-                    <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful" width="200px">
+                    <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
                 </div>
 
                 <!-- Band bio -->
@@ -197,10 +197,10 @@
         </section>
 
         <!-- Add Booking Section -->
-        <div id="booking-section" class="container-fluid text-center">
+        <div id="booking" class="container-fluid text-center">
             <div class="row">
                 <div id="booking-header">
-                   <h1>Booking / Enquiry Form</h1> 
+                   <h1>Contact</h1> 
                 </div>
                 <div id="booking-body">
                     <p>Ready to get the party started? Whether you're planning a private party, wedding
@@ -218,6 +218,9 @@
          <!--Booking form -->
         <section id="booking-form" class="container section p-4">
             <div class="row justify content-center">
+                <div class="col-12">
+                    <h3>Booking/Enquiry Form</h3>
+                </div>
                 <div class="col-12">
                     <form action="success.html" method="GET">
                         <div class="row">
@@ -240,31 +243,37 @@
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="event-type" class="form-label">Event type</label>
                                 <select id="event-type" class="form-select" name="event-type" required="">
-                                    <option value="select" selected="">Select</option>
+                                    <option value="select">Select</option>
                                     <option value="private-hire">Private hire (Weddings, Birthdays and other Special Gatherings)</option>
                                     <option value="hotel-resort">Hotel & resort entertainment</option>
                                     <option value="corporate">Corporate event</option>
                                     <option value="charity-fundraisers">Charity events & fundraisers</option>
-                                    <option value="submit"><strong>Submit a question/query</strong></option>
+                                    <option value="submit">Submit a question/query</option>
                                 </select>
                             </div>
                             <div id="bonus-options" class="col-12 col-lg-6 mb-3">
-                                <label for="bonus-options">Bonus options</label><br>
+                                <label for="bonus-options">Bonus options</label>
+                                <br>
 
                                 <input type="checkbox" name="customised-set" value="customised-set">
-                                <label for="customised-set">Customised set</label><br>
+                                <label for="customised-set">Customised set</label>
+                                <br>
 
                                 <input type="checkbox" name="dj-playlist" value="dj-playlist">
-                                <label for="dj-playlist"></label>DJ playlist between sets<br>
+                                <label for="dj-playlist"></label>DJ playlist between sets
+                                <br>
 
                                 <input type="checkbox" name="first-dance" value="first-dance">
-                                <label for="first-dance"></label>First dance request<br>
+                                <label for="first-dance"></label>First dance request
+                                <br>
 
                                 <input type="checkbox" name="other" value="other">
-                                <label for="other">Other</label><br>
+                                <label for="other">Other</label>
+                                <br>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
-                                <label for="set-time">Set-time</label><br>
+                                <label for="set-time">Set-time</label>
+                                <br>
 
                                 <input type="radio" name="45-mins" value="45-mins">
                                 <label for="45-mins">45 mins</label><br>
@@ -276,19 +285,18 @@
                                 <label for="other">Other</label><br>
                             </div>
                             <div id="booking-date" class="col-12 col-lg-3 mb-3">
-                                <label for="booking-date-time">Booking date</label>
-                                <input type="date" name="booking-date-time">
+                                <label for="booking-date">Booking date</label>
+                                <input type="date" name="booking-date">
                             </div>
 
                              <div id="booking-time" class="col-12 col-lg-3 mb-3">
-                                <label for="booking-date-time">Booking time</label>
-                                <input type="time" name="booking-date-time">
+                                <label for="booking-time">Booking time</label>
+                                <input type="time" name="booking-time">
                             </div>
-                            <div id="message" class="col-12 mb-">
+                            <div id="message" class="col-12">
                                 <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" rows="6" id="message" name="message"></textarea>
                             </div>  
-                            </div>
                             <button type="submit" class="booking-button mt-3">Submit</button>
                         </div>
                     </form>
