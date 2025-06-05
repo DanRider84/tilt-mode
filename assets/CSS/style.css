@@ -276,9 +276,11 @@ header {
   text-shadow: #f5f5dc 0px 0.5px;
 }
 
-#bonus-options {
+#bonus-options,
+#set-time {
   font-family: var(--primary-font);
   color:#f6efdf;
+  font-size: 16px;
 }
 
 #booking-form {
@@ -286,19 +288,24 @@ header {
   color: var(--secondary-color);
 }
 
-#booking-body {
+#booking-form {
   background-color: #1e90ff;
   padding: 20px 20px 0 20px;
   color: var(--secondary-color);
-  text-shadow: var(--tertiary-color) 1px 1px;
   border-top: solid #FFd700 4px;
   border-bottom: solid #FFd700 4px;
 }
 
-#booking-body p {
+#booking-form p {
   color: var(--tertiary-color);
   font-size: 15px;
 }
+
+#booking-body legend {
+  font-size: 16px;
+}
+
+
 
 /* Success page */
 #success h1 {

@@ -239,6 +239,7 @@
                                 <label for="venue-business" class="form-label">Venue/Business Name (as applicable)</label>
                                 <input class="form-control" id="venue-business" name="venue-business" type="text" required="">
                             </div>
+                            <!-- Drop-down menu -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="event-type" class="form-label">Event type</label>
                                 <select id="event-type" class="form-select" name="event-type" required>
@@ -250,51 +251,61 @@
                                     <option value="submit">Submit a question/query</option>
                                 </select>
                             </div>
+                            
+                            <!-- Checkbox options -->
                             <div class="col-12 col-lg-6 mb-3">
-                                <h4>Bonus options</h4>
-                                <div class="form-check">
-                                    <input type="checkbox" name="bonus-options" value="customised-set" class="form-check-input">
-                                    <label for="customised-set" class="form-check-label">Customised set</label>
-                                </div>
+                                <fieldset>
+                                    <legend id="bonus-options">Bonus options</legend>
 
-                                <div class="form-check">
-                                    <input type="checkbox" name="bonus-options" value="dj-playlist" class="form-check-input">
-                                    <label for="dj-playlist" class="form-check-label">DJ playlist between sets</label>
-                                </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" name="bonus-options" value="customised-set" class="form-check-input">
+                                        <label for="customised-set" class="form-check-label">Customised set</label>
+                                    </div>
 
-                                <div class="form-check">
-                                    <input type="checkbox" name="bonus-options" value="first-dance" class="form-check-input">
-                                    <label for="first-dance" class="form-check-label">First dance request</label>
-                                </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" name="bonus-options" value="dj-playlist" class="form-check-input">
+                                        <label for="dj-playlist" class="form-check-label">DJ playlist between sets</label>
+                                    </div>
 
-                                <div class="form-check">
-                                    <input type="checkbox" name="bonus-options" value="other" class="form-check-input">
-                                    <label for="other" class="form-check-label">Other (describe below)</label>
-                                </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" name="bonus-options" value="first-dance" class="form-check-input">
+                                        <label for="first-dance" class="form-check-label">First dance request</label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input type="checkbox" name="bonus-options" value="other" class="form-check-input">
+                                        <label for="other" class="form-check-label">Other (describe below)</label>
+                                    </div>
+                                </fieldset>
                             </div>
+                           
+
+                            <!-- Radio button options -->
                             <div class="col-12 col-lg-6 mb-3">
-                                <h4>Set Time</h4>
-                                <label for="set-time">Set-time</label>
-                                <br>
+                                <fieldset>
+                                    <legend id="set-time">Set Time</legend>
+                                    <input id="45-mins" type="radio" name="set-times" value="45-mins">
+                                    <label for="45-mins">45 mins</label><br>
 
-                                <input type="radio" name="45-mins" value="45-mins">
-                                <label for="45-mins">45 mins</label><br>
-                                <input type="radio" name="90-mins" value="90-mins">
-                                <label for="90-mins">90 mins</label><br>
-                                <input type="radio" name="120-mins" value="120-mins">
-                                <label for="120-mins">120 mins</label><br>
-                                <input type="radio" name="other" value="Other">
-                                <label for="other">Other (describe below)</label><br>
+                                    <input id="90-mins" type="radio" name="set-times" value="90-mins">
+                                    <label for="90-mins">90 mins</label><br>
+
+                                    <input id="120-mins" type="radio" name="set-times" value="120-mins">
+                                    <label for="120-mins">120 mins</label><br>
+
+                                    <input id="other" type="radio" name="set-times" value="Other">
+                                    <label for="other">Other (describe below)</label><br>
+                                </fieldset>
                             </div>
+
                             <div id="date" class="col-12 col-lg-3 mb-3">
-                                <h4>Booking date & time</h4>
-                                <label for="date">Date</label>
-                                <input type="date" name="date">
+                                <label for="booking-date">Booking date</label>
+                                <input type="booking-date" name="booking-date">
                             </div>
 
                              <div id="time" class="col-12 col-lg-3 mb-3">
-                                <label for="time">Time</label>
-                                <input type="time" name="time">
+                                <label for="booking-time">Booking time</label>
+                                <input type="booking-time" name="booking-time">
                             </div>
                             <div class="col-12">
                                 <h4>Message</h4>
