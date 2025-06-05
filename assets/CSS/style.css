@@ -89,13 +89,18 @@ section {
 
 /* Navigation bar */
 
-nav {
-  background-color: var(--primary-color);
-}
-
 #navbar {
   padding-bottom: 10px;
   border-bottom: solid #ff1493 4px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--primary-color);
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #stamp-logo {
@@ -300,10 +305,6 @@ header {
   color:#f6efdf;
 }
 
-#booking-section p {
-  color: 
-}
-
 #booking-form {
   font-family: var(--primary-font);
   color: var(--secondary-color);
@@ -321,7 +322,6 @@ header {
 #booking-body p {
   color: var(--tertiary-color);
   font-size: 15px;
-  border top:
 }
 
 /* Success page */
