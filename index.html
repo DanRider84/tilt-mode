@@ -250,27 +250,30 @@
                                     <option value="submit">Submit a question/query</option>
                                 </select>
                             </div>
-                            <div id="bonus-options" class="col-12 col-lg-6 mb-3">
-                                <label for="bonus-options">Bonus options</label>
-                                <br>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <h4>Bonus options</h4>
+                                <div class="form-check">
+                                    <input type="checkbox" name="bonus-options" value="customised-set" class="form-check-input">
+                                    <label for="customised-set" class="form-check-label">Customised set</label>
+                                </div>
 
-                                <input type="checkbox" name="customised-set" value="customised-set">
-                                <label for="customised-set">Customised set</label>
-                                <br>
+                                <div class="form-check">
+                                    <input type="checkbox" name="bonus-options" value="dj-playlist" class="form-check-input">
+                                    <label for="dj-playlist" class="form-check-label">DJ playlist between sets</label>
+                                </div>
 
-                                <input type="checkbox" name="dj-playlist" value="dj-playlist">
-                                <label for="dj-playlist"></label>DJ playlist between sets
-                                <br>
+                                <div class="form-check">
+                                    <input type="checkbox" name="bonus-options" value="first-dance" class="form-check-input">
+                                    <label for="first-dance" class="form-check-label">First dance request</label>
+                                </div>
 
-                                <input type="checkbox" name="first-dance" value="first-dance">
-                                <label for="first-dance"></label>First dance request
-                                <br>
-
-                                <input type="checkbox" name="other" value="other">
-                                <label for="other">Other</label>
-                                <br>
+                                <div class="form-check">
+                                    <input type="checkbox" name="bonus-options" value="other" class="form-check-input">
+                                    <label for="other" class="form-check-label">Other (describe below)</label>
+                                </div>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
+                                <h4>Set Time</h4>
                                 <label for="set-time">Set-time</label>
                                 <br>
 
@@ -281,19 +284,20 @@
                                 <input type="radio" name="120-mins" value="120-mins">
                                 <label for="120-mins">120 mins</label><br>
                                 <input type="radio" name="other" value="Other">
-                                <label for="other">Other</label><br>
+                                <label for="other">Other (describe below)</label><br>
                             </div>
-                            <div id="booking-date" class="col-12 col-lg-3 mb-3">
-                                <label for="booking-date">Booking date</label>
-                                <input type="date" name="booking-date">
+                            <div id="date" class="col-12 col-lg-3 mb-3">
+                                <h4>Booking date & time</h4>
+                                <label for="date">Date</label>
+                                <input type="date" name="date">
                             </div>
 
-                             <div id="booking-time" class="col-12 col-lg-3 mb-3">
-                                <label for="booking-time">Booking time</label>
-                                <input type="time" name="booking-time">
+                             <div id="time" class="col-12 col-lg-3 mb-3">
+                                <label for="time">Time</label>
+                                <input type="time" name="time">
                             </div>
                             <div id="message" class="col-12">
-                                <label for="message" class="form-label">Message</label>
+                                <h4>Message</h4>
                                 <textarea class="form-control" rows="6" id="message" name="message"></textarea>
                             </div>  
                             <button type="submit" class="booking-button mt-3">Submit</button>
