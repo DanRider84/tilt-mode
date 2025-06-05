@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tilt Mode - a high energy rock-infused 90s/00s themeed live band for events across South East England. Book now!">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -28,7 +29,7 @@
             </a>
 
             <!-- Hamburger button for mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapsse" data-bs-target="#navbarNav" 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,7 +60,7 @@
     <!-- Header -->
     <header id="home" class="header container-fluid m-0 p-0">
         <div class="row">
-            <div id="header-section"></div>
+            <div id="header-section">
                 <h1 class="visually-hidden">Tilt Mode</h1>
                 <div id="band-profile-container" class="col-12 m-0 p-0">
                     <!-- Image wrapper for cream background containing band logo-->
@@ -175,8 +176,8 @@
                             <div class="card-body">
                                 <h3>Rhys Best</h3>
                                 <p>Drums</p>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -191,9 +192,9 @@
                 <div id="booking-body" class="col-12">
                     <p>Ready to get the party started? Whether you're planning a private party, wedding
                         reception, corporate function. pub gig or festival slot, Tilt Mode delivers high-energy live music that 
-                        gets people dancing and keeps the good vibes fowing all night. 
+                        gets people dancing and keeps the good vibes flowing all night. 
                     </p>
-                    <p>PWe play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
+                    <p>We play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
                         Professional, reliable, and easy to work with, we bring the full package: live sound, lighting, and a setlist tailored 
                         to your crowd.
                     </p>
@@ -219,7 +220,7 @@
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required="">
+                                <input class="form-control" id="phone" name="phone" type="tel" required="">
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="venue-business" class="form-label">Venue/Business Name (as applicable)</label>
@@ -293,7 +294,7 @@
                             <div class="col-12">
                                 <h4>Message</h4>
                                 <label for="message" class="visually-hidden">message</label>
-                                <textarea id="message" class="form-control" rows="6"></textarea>
+                                <textarea id="message" class="form-control" name="message" rows="6" placeholder="Type your message here"></textarea>
                             </div>
                             
                             <!-- Submit button -->
@@ -312,14 +313,14 @@
             <div id="social">
                 <div class="col-12 justify-content-space py-2">
                     <!-- Font-awesome icons  -->
-                    <a id="youtube">
+                    <a id="youtube" aria-label="Visit us on Youtube">
                         <i class="fa-brands fa-youtube px-2"></i>
                     </a>
                     <a id="instagram">
-                        <i class="fa-brands fa-square-instagram px-2"></i>
+                        <i class="fa-brands fa-square-instagram px-2" aria-label="Visit us on Youtube"></i>
                     </a>
                     <a id="facebook">
-                        <i class="fa-brands fa-square-facebook px-2"></i>
+                        <i class="fa-brands fa-square-facebook px-2" aria-label="Visit us on Youtube"></i>
                     </a>
                 </div>
             </div>

@@ -328,6 +328,18 @@ height: auto;
   font-size: 30px;
 }
 
+#youtube {
+  color: #800080;
+}
+
+#instagram {
+  color: #ff1493
+}
+
+#facebook {
+  color: #1e90ff;
+}
+
 #copyright {
   font-family: var(--primary-font);
   font-size: 0.5rem;
