@@ -165,6 +165,13 @@ header {
   font-size: 9px;
 }
 
+/* Code added to address white background issue */
+header,
+main {
+  background-color: var(--primary-color);
+
+}
+
 #band-logo-header {
   max-width: 300px;
   height: auto;
