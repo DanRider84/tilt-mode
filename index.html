@@ -265,11 +265,20 @@
                                     <option value="submit">Submit a question/query</option>
                                 </select>
                             </div>
+
+                            <div class="col-12 col-lg-3 mb-3 pt-3">
+                                <label for="booking-date">Booking date:</label>
+                                <input id="booking-date" type="date" name="booking-date">
+                            </div>
+                            <div class="col-12 col-lg-3 mb-3 pt-2">
+                                <label for="booking-time">Booking time:</label>
+                                <input id="booking-time" type="time" name="booking-time">
+                            </div>
                                 
                             <!-- Checkbox options -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <fieldset>
-                                    <legend id="bonus-options">Bonus options</legend>
+                                    <legend id="bonus-options" class="mt-3">Bonus options:</legend>
                                     <div class="form-check">
                                         <input id="customised-set" type="checkbox" name="bonus-options" value="customised-set" class="form-check-input">
                                         <label for="customised-set" class="form-check-label">Customised set</label>
@@ -295,7 +304,7 @@
                             <!-- Radio button options -->
                             <div class="col-12 col-lg-6 mb-3">
                                     <fieldset>
-                                        <legend id="set-time">Set Time</legend>
+                                        <legend id="set-time">Set Time:</legend>
                                         <input id="45-mins" type="radio" name="set-times" value="45-mins">
                                         <label for="45-mins">45 mins</label><br>
 
@@ -310,15 +319,8 @@
                                     </fieldset>
                             </div>
 
-                            <div class="col-12 col-lg-3 mb-3">
-                                    <label for="booking-date">Booking date</label>
-                                    <input id="booking-date" type="date" name="booking-date">
-                            </div>
-                            <div class="col-12 col-lg-3 mb-3">
-                                    <label for="booking-time">Booking time</label>
-                                    <input id="booking-time" type="time" name="booking-time">
-                            </div>
-                            <div class="col-12">
+                    
+                            <div class="col-12 mt-2">
                                 <h4>Message</h4>
                                 <label for="message" class="visually-hidden">message</label>
                                 <textarea id="message" class="form-control" name="message" rows="6" placeholder="Type your message here"></textarea>
