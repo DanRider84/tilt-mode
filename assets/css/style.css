@@ -369,12 +369,12 @@ footer {
 }
 
 #social {
-border-bottom: solid #000000 1px;
+border-bottom: solid #800080 2px;
 height: auto;
 }
 
 #social i {
-  font-size: 2rem;
+  font-size: 1.875rem;
 }
 
 #youtube {
@@ -391,5 +391,7 @@ height: auto;
 
 #copyright {
   font-family: var(--primary-font);
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #800080;
 }
