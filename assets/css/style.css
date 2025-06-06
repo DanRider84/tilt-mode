@@ -1,20 +1,3 @@
-/* Find a place for this 
-h2 {
-  text-shadow: #f5f5dc 0px 0.5px;
-}
-*/
-
-/* 
-Overflow bug - testing script
-* {
-  outline: 1px solid red;
-}
- */
-
-
-/**/
-
-
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&display=swap');
 
@@ -54,9 +37,9 @@ body {
 
 h2 {
     border-top: solid #FFd700 4px;
+     text-shadow: #f5f5dc 0px 0.5px;
 }
-
-
+ 
 /* Header */
 
 #band-logo-header {
@@ -90,15 +73,17 @@ i {
   height: auto;
 }
 
-#booking-button,
-.booking-button {
+
+.btn,
+.navbar-toggler {
   background-color: var(--tertiary-color);
-  color: var(--primary-color)
+  color: #800080;
 }
 
-.booking-button:hover {
-  background-color: #32cd32;
-  color: var(--secondary-color);
+.btn:hover,
+.navbar-toggler:hover {
+  background-color: #ff1493;
+  color: var(--tertiary-color);
 }
 
 /* Navigation bar */
