@@ -240,6 +240,7 @@ main {
 
 #services-table .heading p {
   font-size: 1rem;
+
 }
 
 /* Adds space between icon and title */
@@ -255,7 +256,7 @@ main {
   background-color: #1e90ff;
 }
 
-#we-provide {
+#audio-lighting {
   background-color: #32cd32;
 }
 
@@ -265,11 +266,8 @@ main {
 }
 
 .info {
-  background-color: #f5f5dc;
-}
-
-.info p {
-  color: #000000;
+  background-color: var(--secondary-color);
+  color: #800080;
 }
 
 /* Band profile */
@@ -378,7 +376,7 @@ height: auto;
 }
 
 #youtube {
-  color: #32cd32;
+  color: #800080;
 }
 
 #instagram {
