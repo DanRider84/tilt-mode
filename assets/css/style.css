@@ -4,11 +4,12 @@ h2 {
 }
 */
 
-/* Overflow bug - testing script */
+/* 
+Overflow bug - testing script
 * {
   outline: 1px solid red;
 }
-
+ */
 
 
 /**/
@@ -24,6 +25,8 @@ h2 {
     --primary-color: #000000;/* black */
     --secondary-color: #f5f5dc; /* cream */
     --tertiary-color: #FFd700; /* gold */
+    --banner-font-color: #1e90ff; /*blue*/
+    --banner-text: (font-size: 40px;);
 }
 
 /* Global styles */
@@ -62,6 +65,14 @@ h3 {
   font-family: var(--secondary-font);
   padding-top: 10px;
   text-shadow: #f5f5dc 0px 0.5px;
+  font-size: 25px;
+}
+
+#bio-body {
+  font-size: 18px;
+  color: #800080;
+  font-weight: 700;
+
 }
 
 i {
