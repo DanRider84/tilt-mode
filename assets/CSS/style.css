@@ -9,10 +9,6 @@ h2 {
   outline: 1px solid red;
 }
 
-#testing {
-  overflow: hidden;
-}
-
 #services .container,
 #booking .container-fluid {
   padding-left: 15px !important;
