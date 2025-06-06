@@ -9,6 +9,10 @@ h2 {
   outline: 1px solid red;
 }
 
+#testing {
+  overflow: hidden;
+}
+
 
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&display=swap');
@@ -48,6 +52,13 @@ header > div,
   border-left: solid #000000 30px;
   border-right: solid #000000 30px;
   border-bottom: solid #000000 30px;
+}
+
+#band-logo-header {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #bio-header {

@@ -61,133 +61,146 @@
     </nav>
 
     <!-- Header -->
-    <header id="home" class="header container-fluid m-0 p-0">
-        <div class="row">
-            <div id="header-section" class="col-12">
-                <h1 class="visually-hidden">Tilt Mode</h1>
-                <div id="band-profile-container" class="m-0 p-0">
-                    <!-- Image wrapper for cream background containing band logo-->
-                    <div class="container">
-                        <div id="logo-wrapper" class="row justify-content-center align-items-center">
-                            <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
+    <header id="home" class="m-0 p-0">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div id="header-section" class="col-12">
+                    <h1 class="visually-hidden">Tilt Mode</h1>
+                    
+                    <div id="band-profile-container" class="container-fluid p-0">
+                        <!-- Image wrapper for cream background containing band logo-->
+                        <div class="container py-4">
+                            <div id="logo-wrapper" class="row justify-content-center align-items-center g-0">
+                                <div class="col-auto">
+                                    <img id="band-logo-header" class="img-fluid" src="./assets/images/logo.JPG" alt="band logo colourful">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bio -->
+                        <div class="container-fluid pb-4">
+                            <div id="bio" class="row justify-content-center align-items-center g-0 text-center">
+                                <div id="bio-header" class="col-12">
+                                    <p class="mb-3">Looking for unforgettable live music for your venue or special occasion?</p>
+                                </div>
+                                <div id="bio-body" class="col-12">
+                                    <p class="mb-2">Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
+                                        songs everyone loves — from 90s classics to modern hits.</p>
+                                    <p class="mb-2">With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages singing along 
+                                        and dancing all night.</p>
+                                    <p class="mb-0"> Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to remember.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Bio -->
-                    <div class="container">
-                    <div id="bio" class="row justify-content-center align-items-center">
-                        <div id="bio-header">
-                            <p>Looking for unforgettable live music for your venue or special occasion?</p>
-                        </div>
-                        <div id="bio-body" class="pt-3">
-                            <p>Tilt Mode delivers a high-energy, crowd-pleasing show packed with rock-infused versions of the 
-                                songs everyone loves — from 90s classics to modern hits.</p>
-                            <p>With powerful vocals, tight harmonies, and a professional setup, they’ll have guests of all ages singing along 
-                                and dancing all night.</p>
-                            <p> Whether it’s a birthday bash, corporate event, or big celebration, Tilt Mode guarantees a night to remember.</p>
-                        </div>
-                    </div>                
-                </div>
+                </div>                 
             </div>
-        </div>
+        </div>        
     </header>
 
     <!-- Main sections -->
     <main>
-         <!-- Description of services section -->
+        <!-- Description of services section -->
         <section id="services">
-            <div class="container-fluid px-0">
+            <div class="container px-3 py-5">
                 <div class="row">
-                    <div id="services-header" class="col-12">
-                        <h2 class="pb-2">What we offer</h2>
-                        <p><strong>Available for bookings across South East England.</strong></p>
+                <div id="services-header" class="col-12 mb-4">
+                    <h2 class="pb-2">What we offer</h2>
+                    <p><strong>Available for bookings across South East England.</strong></p>
+                </div>
+
+                <div id="services-table" class="col-12">
+
+                    <div id="availability" class="services heading mb-1">
+                    <p class="mb-0"><i class="fa-solid fa-calendar-days"></i> Availability</p>
                     </div>
-                    
-                    <div id="services-table" class="col-12">
-                        <br>
-                        <div id="availability" class="services heading">
-                            <p class="mb-0"><i class="fa-solid fa-calendar-days"></i>  Availability</p>
-                        </div>
-                        
-                        <div class="services info">
-                            <p class="mb-0 py-2">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
-                        </div><br>
-                        
-                        <div id="set-times" class="services heading">
-                            <p class="mb-0"><i class="fa-solid fa-music"></i>  Set times</p>
-                        </div>
-                        <div class="services info">
-                            <p class="mb-0 py-2">Option of either 45 mins / 90mins / 120mins sets</p>
-                        </div><br>
+                    <div class="services info">
+                    <p class="mb-0">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
+                    </div>
 
-                        <div id="we-provide" class="services heading">
-                            <p class="mb-0"><i class="fa-solid fa-volume-high"></i>  Audio & Lighting</p>
-                        </div>
-                        <div class="services info">
-                            <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
-                        </div><br>
+                    <div id="set-times" class="services heading mb-1 mt-4">
+                    <p class="mb-0"><i class="fa-solid fa-music"></i> Set times</p>
+                    </div>
+                    <div class="services info">
+                    <p class="mb-0">Option of either 45 mins / 90mins / 120mins sets</p>
+                    </div>
 
-                        <div id="options" class="services heading">
-                            <p class="mb-0"><i class="fa-solid fa-headphones"></i>  Other Options</p>
-                        </div>
+                    <div id="we-provide" class="services heading mb-1 mt-4">
+                    <p class="mb-0"><i class="fa-solid fa-volume-high"></i> Audio & Lighting</p>
+                    </div>
+                    <div class="services info">
+                    <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
+                    </div>
 
-                        <div class="services info">
-                            <p class="mb-0 py-2">DJ playlist between sets, customised sets first dance requests.</p>
-                        </div><br>
+                    <div id="options" class="services heading mb-1 mt-4">
+                    <p class="mb-0"><i class="fa-solid fa-headphones"></i> Other Options</p>
+                    </div>
+                    <div class="services info">
+                    <p class="mb-0 py-2">DJ playlist between sets, customised sets, first dance requests.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!-- Band member profile section -->
 
-        <section id="the-band">
-            <div class="container-fluid px-0">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class ="my-4 text-center">The band</h2>
-                    </div>
 
-                    <div id="band-members" class="row g-3 bg-black px-0 py-0 justify-content-center">
-                    
-                        <!-- Chris -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100 pb-0" style="max-width: 22rem;">
-                            <img src="./assets/images/Chris.png" alt="Chris singing on stage" class="img-fluid mb-1 mt-3">
-                            <div class="card-body">
-                                <h3>Chris Morley</h3>
-                                <p>Vocals & Guitar</p>
-                            </div>
-                        </div>
-                            
-                        <!-- Gary -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
-                            <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
-                            <div class="card-body">
-                                <h3>Gary Stone</h3>
-                                <p>Vocals & Guitar</p>
-                            </div>
-                        </div>
-
-                        <!-- Callum -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
-                            <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
-                            <div class="card-body">
-                                <h3>Callum Aves</h3>
-                                <p>Vocals & Bass Guitar</p>
-                            </div>
-                        </div>
-
-                        <!-- Rhys -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
-                            <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
-                            <div class="card-body">
-                                <h3>Rhys Best</h3>
-                                <p>Drums</p>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Band member profile section -->
+    <section id="the-band">
+        <div class="container-fluid px-3">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="my-4 text-center">The band</h2>
                 </div>
+        </div>
+
+        <div id="band-members" class="row g-4 bg-black py-4 justify-content-center">
+
+        <!-- Chris -->
+        <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center">
+            <div class="card text-center" style="max-width: 22rem;">
+            <img src="./assets/images/Chris.png" alt="Chris singing on stage" class="img-fluid mb-1 mt-3">
+            <div class="card-body">
+                <h3>Chris Morley</h3>
+                <p>Vocals & Guitar</p>
             </div>
-        </section>
+            </div>
+        </div>
+
+        <!-- Gary -->
+        <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center">
+            <div class="card text-center" style="max-width: 22rem;">
+            <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
+            <div class="card-body">
+                <h3>Gary Stone</h3>
+                <p>Vocals & Guitar</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Callum -->
+        <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center">
+            <div class="card text-center" style="max-width: 22rem;">
+            <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
+            <div class="card-body">
+                <h3>Callum Aves</h3>
+                <p>Vocals & Bass Guitar</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Rhys -->
+        <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center">
+            <div class="card text-center" style="max-width: 22rem;">
+            <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
+            <div class="card-body">
+                <h3>Rhys Best</h3>
+                <p>Drums</p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</section>
 
         <!-- Contact/Booking Section -->
         <section id="booking" class="container-fluid text-center">
@@ -196,15 +209,15 @@
                     <h2>Contact</h2> 
                 </div>
                 <div id="booking-body" class="col-12">
-                    <p>Ready to get the party started? Whether you're planning a private party, wedding
+                    <p class="mb-0 py-2">Ready to get the party started? Whether you're planning a private party, wedding
                         reception, corporate function. pub gig or festival slot, Tilt Mode delivers high-energy live music that 
                         gets people dancing and keeps the good vibes flowing all night. 
                     </p>
-                    <p>We play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
+                    <p class="mb-0 py-2">We play rocked-up versions of popular songs from the 90s to now — familiar tunes with a fresh, guitar-driven twist. 
                         Professional, reliable, and easy to work with, we bring the full package: live sound, lighting, and a setlist tailored 
                         to your crowd.
                     </p>
-                        <p>Use the form below to check availability, request a quote, or ask us anything. Let’s make your event one to remember!</p>  
+                        <p class="mb-0 py-2">Use the form below to check availability, request a quote, or ask us anything. Let’s make your event one to remember!</p>  
                 </div>
             </div>
 
