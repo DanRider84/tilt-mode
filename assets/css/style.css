@@ -77,8 +77,8 @@ h2 {
 .header-text {
   font-size: 1rem;
   color: #800080;
-  font-weight: 700;
-  text-shadow: #800080 0.5px 0px;
+  font-weight: 400;
+
 }
 
 i {
@@ -374,11 +374,11 @@ height: auto;
 }
 
 #social i {
-  font-size: 1.875rem;
+  font-size: 2.8rem;
 }
 
 #youtube {
-  color: #800080;
+  color: #32cd32;
 }
 
 #instagram {
@@ -391,7 +391,7 @@ height: auto;
 
 #copyright {
   font-family: var(--primary-font);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 300;
   color: #800080;
 }
