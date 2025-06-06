@@ -36,6 +36,9 @@ body {
 
 body {
   background-color: var(--primary-color);
+  border-left: solid #000000 30px;
+  border-right: solid #000000 30px;
+  border-bottom: solid #000000 30px;
 }
 
 h2,
@@ -46,13 +49,6 @@ h3 {
 }
 
 /* Header */
-
-header > div,
-#band-profile {
-  border-left: solid #000000 30px;
-  border-right: solid #000000 30px;
-  border-bottom: solid #000000 30px;
-}
 
 #band-logo-header {
   max-width: 100%;
