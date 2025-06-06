@@ -23,10 +23,10 @@ Overflow bug - testing script
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Luckiest Guy", cursive;
     --primary-color: #000000;/* black */
-    --secondary-color: #f5f5dc; /* cream */
+    --secondary-color: #f6efdf; /* cream */
     --tertiary-color: #FFd700; /* gold */
     --banner-font-color: #1e90ff; /*blue*/
-    --banner-text: (font-size: 40px;);
+    --banner-text: (font-size: 40px;)
 }
 
 /* Global styles */
@@ -44,17 +44,19 @@ body {
   border-bottom: solid #000000 30px;
 }
 
-header,
-section {
-  border-left: solid #800080 4px;
-  border-right: solid #800080 4px;
+.heading {
+  background-color: #800080;
+  padding: 20px;
+  color: #ffd700;
+  font-family: var(--secondary-font);
+  text-shadow: var(--secondary-color) 0px 2px;
+  font-size: 35px;
 }
 
-h2,
-h3 {
-  color: var(--tertiary-color);
-  font-family: var(--secondary-font);
+h2 {
+    border-top: solid #FFd700 4px;
 }
+
 
 /* Header */
 
@@ -69,14 +71,15 @@ h3 {
   color: var(--tertiary-color);
   font-family: var(--secondary-font);
   padding-top: 10px;
-  text-shadow: #f5f5dc 0px 0.5px;
-  font-size: 25px;
+  text-shadow: #800080 2px 2px 5px;
+  font-size: 30px;
 }
 
-#bio-body {
+.header-text {
   font-size: 18px;
   color: #800080;
   font-weight: 700;
+  text-shadow: #800080 0.5px 0px;
 }
 
 i {
@@ -216,24 +219,24 @@ main {
 /* Services Section */
 
 
-#services {
-  background-color: var(--primary-color);
-  font-size: 12px;
+#services > div {
+  border-bottom: solid #ffa500 4px;
 }
 
-
-#services-header > h2 {
-  text-shadow: var(--secondary-color) 0px 2px;
-}
-
-#services-header > p {
-  font-size: 14px
+#services-header {
+  background-color: var(--secondary-color);
 }
 
 #services-table {
   margin: 20px;
-  border-top: solid #ffd700 4px;
-  border-bottom: solid #ffd700 4px;
+  border: solid #f6efdf 20px;
+  background-color: #800080;
+}
+
+#services-table .heading {
+  color: #f6efdf;
+  text-shadow: #800080 2px 2px;
+
 }
 
 #services-table .heading p {
@@ -245,14 +248,8 @@ main {
   padding: 5px;
 }
 
-.heading {
-  font-family: var(--secondary-font);
-  text-shadow: #000000 2px 2px;
-
-}
-
 #availability {
-  background-color: #ff1493;
+  background-color: #ffa500;
 }
 
 #set-times {
@@ -264,7 +261,7 @@ main {
 }
 
 #options {
-  background-color: var(--tertiary-color);
+  background-color: #ff1493;
 
 }
 
