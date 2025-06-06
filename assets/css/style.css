@@ -44,11 +44,16 @@ body {
   border-bottom: solid #000000 30px;
 }
 
+header,
+section {
+  border-left: solid #800080 4px;
+  border-right: solid #800080 4px;
+}
+
 h2,
 h3 {
   color: var(--tertiary-color);
   font-family: var(--secondary-font);
-  padding-top: 10px;
 }
 
 /* Header */
@@ -72,7 +77,6 @@ h3 {
   font-size: 18px;
   color: #800080;
   font-weight: 700;
-
 }
 
 i {
@@ -173,6 +177,11 @@ header {
 }
 
 /* Code added to address white background issue */
+
+header {
+  border-bottom: solid #FFd700 4px;
+}
+
 header,
 main {
   background-color: var(--primary-color);
@@ -212,15 +221,6 @@ main {
   font-size: 12px;
 }
 
-#services-header h2,
-#services-header p {
-  margin: 0;
-  padding: 0;
-}
-
-#services-header {
-  margin-left: 0px;
-}
 
 #services-header > h2 {
   text-shadow: var(--secondary-color) 0px 2px;
