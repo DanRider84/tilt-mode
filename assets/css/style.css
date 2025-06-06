@@ -26,7 +26,6 @@ Overflow bug - testing script
     --secondary-color: #f6efdf; /* cream */
     --tertiary-color: #FFd700; /* gold */
     --banner-font-color: #1e90ff; /*blue*/
-    --banner-text: (font-size: 40px;)
 }
 
 /* Global styles */
@@ -50,7 +49,7 @@ body {
   color: #ffd700;
   font-family: var(--secondary-font);
   text-shadow: var(--secondary-color) 0px 2px;
-  font-size: 35px;
+  font-size: 2rem;
 }
 
 h2 {
@@ -72,11 +71,11 @@ h2 {
   font-family: var(--secondary-font);
   padding-top: 10px;
   text-shadow: #800080 2px 2px 5px;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .header-text {
-  font-size: 18px;
+  font-size: 1rem;
   color: #800080;
   font-weight: 700;
   text-shadow: #800080 0.5px 0px;
@@ -176,7 +175,7 @@ header {
   padding: 0;
   font-family: var(--primary-font);
   color: var(--tertiary-color);
-  font-size: 9px;
+  font-size: 1rem;
 }
 
 /* Code added to address white background issue */
@@ -240,7 +239,7 @@ main {
 }
 
 #services-table .heading p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 /* Adds space between icon and title */
@@ -277,7 +276,7 @@ main {
 
 #band-profile .card p {
   font-family: var(--primary-font);
-  font-size: 14px;
+  font-size: 0.75rem;
   color: #000000;
 }
 
@@ -318,7 +317,7 @@ main {
 #set-time {
   font-family: var(--primary-font);
   color:#f6efdf;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #booking-form {
@@ -338,7 +337,7 @@ main {
 #booking-form h3 {
   font-family: var(--secondary-font);
   color: var(--tertiary-color);
-  font-size: 26px;
+  font-size: 1.6rem;
   text-shadow: #000000 1px 1px;
 
 }
@@ -346,13 +345,13 @@ main {
 #booking-form label
 #booking-form legend {
   color: var(--secondary-color);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 
 }
 
 #booking-body legend {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 
@@ -375,7 +374,7 @@ height: auto;
 }
 
 #social i {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 #youtube {
