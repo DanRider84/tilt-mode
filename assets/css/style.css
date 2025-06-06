@@ -220,7 +220,7 @@ main {
 
 
 #services > div {
-  border-bottom: solid #ffa500 4px;
+  border-bottom: solid #FFd700 4px;
 }
 
 #services-header {
@@ -275,11 +275,7 @@ main {
 
 /* Band profile */
 
-#band-profile .card {
-  background-color: #f5f5dc;
-}
-
-#band-profile .card h3 {
+#band-profile .card h4 {
   font-family: var(--secondary-font);
   font-size: 24px;
 }
@@ -290,13 +286,26 @@ main {
   color: #000000;
 }
 
-#band-profile h3 {
+.band-member h3 {
   color: #800080;
+  font-weight: 700;
+}
+
+.band-member p {
+  color: #1e90ff;
+  font-weight: 600;
 }
 
 #band-members {
-  background-color: #FFd700;
+  border-bottom: #FFd700 4px;
 }
+
+#the-band {
+  border-left: solid var(--secondary-color) 4px;
+  border-right: solid var(--secondary-color) 4px;
+  border-bottom: solid var(--secondary-color) 4px;
+}
+
 
 /* Booking page */
 
