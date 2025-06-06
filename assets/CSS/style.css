@@ -4,6 +4,11 @@ h2 {
 }
 */
 
+/* Overflow bug - testing script */
+* {
+  outline: 1px solid red;
+}
+
 
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&display=swap');
@@ -189,7 +194,7 @@ header {
 }
 
 #services-header {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 #services-header > h2 {

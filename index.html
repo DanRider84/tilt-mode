@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tilt Mode - a high energy rock-infused 90s/00s themeed live band for events across South East England. Book now!">
+    <meta name="description" content="Tilt Mode - a high energy rock-infused 90s/00s themeed live band for events across 
+        South East England. Book now!">
+    <meta name="keywords" content="live band, cover band, 90s rock, party band, events, South East England, live music">
+    <meta name="author" content="Tilt Mode Band">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -60,14 +63,17 @@
     <!-- Header -->
     <header id="home" class="header container-fluid m-0 p-0">
         <div class="row">
-            <div id="header-section">
+            <div id="header-section" class="col-12">
                 <h1 class="visually-hidden">Tilt Mode</h1>
-                <div id="band-profile-container" class="col-12 m-0 p-0">
+                <div id="band-profile-container" class="m-0 p-0">
                     <!-- Image wrapper for cream background containing band logo-->
-                    <div id="logo-wrapper" class="flex-d row justify-content-center align-items-center">
-                        <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
+                    <div class="container">
+                        <div id="logo-wrapper" class="row justify-content-center align-items-center">
+                            <img id="band-logo-header" src="./assets/images/logo.JPG" alt="band logo colourful">
+                        </div>
                     </div>
                     <!-- Bio -->
+                    <div class="container">
                     <div id="bio" class="row justify-content-center align-items-center">
                         <div id="bio-header">
                             <p>Looking for unforgettable live music for your venue or special occasion?<p>
@@ -98,33 +104,33 @@
                     
                     <div id="services-table" class="col-12">
                         <br>
-                        <div id="availability" class="col-12 services heading">
+                        <div id="availability" class="services heading">
                             <p class="mb-0"><i class="fa-solid fa-calendar-days"></i>  Availability</p>
                         </div>
                         
-                        <div class="col-12 services info">
+                        <div class="services info">
                             <p class="mb-0 py-2">Weekends, evenings & select weekdays. Advance bookings preferred.</p>
                         </div><br>
                         
-                        <div id="set-times" class="col-12 services heading">
+                        <div id="set-times" class="services heading">
                             <p class="mb-0"><i class="fa-solid fa-music"></i>  Set times</p>
                         </div>
-                        <div class="col-12 services info">
+                        <div class="services info">
                             <p class="mb-0 py-2">Option of either 45 mins / 90mins / 120mins sets</p>
                         </div><br>
 
-                        <div id="we-provide" class="col-12 services heading">
+                        <div id="we-provide" class="services heading">
                             <p class="mb-0"><i class="fa-solid fa-volume-high"></i>  Audio & Lighting</p>
                         </div>
-                        <div class="col-12 services info">
+                        <div class="services info">
                             <p class="mb-0 py-2">We provide full PA system, lighting rig & setup crew — all you need is the space!</p>
                         </div><br>
 
-                        <div id="options" class="col-12 services heading">
+                        <div id="options" class="services heading">
                             <p class="mb-0"><i class="fa-solid fa-headphones"></i>  Other Options</p>
                         </div>
 
-                        <div class="col-12 services info">
+                        <div class="services info">
                             <p class="mb-0 py-2">DJ playlist between sets, customised sets first dance requests.</p>
                         </div><br>
                     </div>
@@ -153,7 +159,7 @@
                         </div>
                             
                         <!-- Gary -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
                             <img src="./assets/images/Gary.png" alt="Gary playing guitar on stage" class="img-fluid mb-1 mt-3">
                             <div class="card-body">
                                 <h3>Gary Stone</h3>
@@ -162,7 +168,7 @@
                         </div>
 
                         <!-- Callum -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
                             <img src="./assets/images/Callum-bw.png" alt="Callum playing bass" class="img-fluid mb-1 mt-3">
                             <div class="card-body">
                                 <h3>Callum Aves</h3>
@@ -171,7 +177,7 @@
                         </div>
 
                         <!-- Rhys -->
-                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center w-100" style="max-width: 22rem;">
+                        <div class="col-12 col-lg-6 col-xl-3 card d-flex justify-content-center" style="max-width: 22rem;">
                             <img src="./assets/images/Rhys-bw.png" alt="Rhys playing drums" class="img-fluid mb-1 mt-3">
                             <div class="card-body">
                                 <h3>Rhys Best</h3>
@@ -183,8 +189,8 @@
             </div>
         </section>
 
-        <!-- Booking Section -->
-        <section class="container-fluid text-center">
+        <!-- Contact/Booking Section -->
+        <section id="booking" class="container-fluid text-center">
             <div class="row">
                 <div id="booking-header" class="col-12">
                     <h2>Contact</h2> 
@@ -203,29 +209,30 @@
             </div>
 
             <!--Booking form -->
-            <div id="booking-form">
-                <div class="col-12">
-                    <h3>Booking/Enquiry Form</h3>
-                </div>
-                <div class="col-12">
-                    <form action="success.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required="">
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required="">
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="tel" required="">
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="venue-business" class="form-label">Venue/Business Name (as applicable)</label>
-                                <input class="form-control" id="venue-business" name="venue-business" type="text" required="">
-                            </div>
+            <div id="booking-form" class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Booking/Enquiry Form</h3>
+                    </div>
+                    <div class="col-12">
+                        <form action="success.html" method="GET">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input class="form-control" id="name" name="name" type="text" required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="phone" class="form-label">Phone number</label>
+                                    <input class="form-control" id="phone" name="phone" type="tel" required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="venue-business" class="form-label">Venue/Business Name (as applicable)</label>
+                                    <input class="form-control" id="venue-business" name="venue-business" type="text" required>
+                                </div>
                             <!-- Drop-down menu -->
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="event-type" class="form-label">Event type</label>
@@ -299,8 +306,9 @@
                             
                             <!-- Submit button -->
                             <button type="submit" class="booking-button mt-3">Submit</button>
-                        </div>
-                    </form>   
+                            </div>
+                        </form>
+                    </div>   
                 </div>
             </div>  
         </section>
@@ -311,23 +319,28 @@
         <div class="container-fluid text-center m-0 p-0">
             <!-- Social media links -->
             <div id="social">
-                <div class="col-12 justify-content-space py-2">
-                    <!-- Font-awesome icons  -->
-                    <a id="youtube" aria-label="Visit us on Youtube">
-                        <i class="fa-brands fa-youtube px-2"></i>
-                    </a>
-                    <a id="instagram">
-                        <i class="fa-brands fa-square-instagram px-2" aria-label="Visit us on Youtube"></i>
-                    </a>
-                    <a id="facebook">
-                        <i class="fa-brands fa-square-facebook px-2" aria-label="Visit us on Youtube"></i>
-                    </a>
+                <div class="row">
+                    <div class="col-12 justify-content-space py-2">
+                        <!-- Font-awesome icons  -->
+                        <a id="youtube" aria-label="Visit us on Youtube">
+                            <i class="fa-brands fa-youtube px-2"></i>
+                        </a>
+                        <a id="instagram">
+                            <i class="fa-brands fa-square-instagram px-2" aria-label="Visit us on Instagram"></i>
+                        </a>
+                        <a id="facebook">
+                            <i class="fa-brands fa-square-facebook px-2" aria-label="Visit us on Facebook"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             
             <!-- Copyright -->
-            <div id="copyright" class="col-12 py-1">Copyright © 2025 Tilt Mode</div>
-
+            <div class="container-fluid text-center m-0 p-0">
+                <div class="row">
+                     <div id="copyright" class="col-12 py-1">Copyright © 2025 Tilt Mode</div>
+                </div>
+            </div>
         </div>
     </footer>
     
