@@ -19,12 +19,6 @@ body {
   padding: 0;
 }
 
-body {
-  background-color: var(--primary-color);
-  border-left: solid #000000 30px;
-  border-right: solid #000000 30px;
-  border-bottom: solid #000000 30px;
-}
 
 .heading {
   background-color: #800080;
@@ -61,29 +55,23 @@ h2 {
   font-size: 1rem;
   color: #800080;
   font-weight: 400;
-
 }
 
 i {
   padding-right: 3px;
 }
 
-#band-logo-header {
-  width: 100%;
-  height: auto;
-}
-
 
 /* Navbar & Buttons */
 
 #navbar {
-  padding-bottom: 10px;
   border-bottom: solid #ff1493 4px;
   position: sticky;
   left: 0;
   right: 0;
   top: 0;
   margin-top: 0;
+  padding: 15px 60px;
   width: 100%;
   z-index: 1000;
   background-color: var(--primary-color);
@@ -150,7 +138,7 @@ li {
 
   .btn:hover {
     background-color: #ff1493;
-    color: #FFd700
+    color: var(--tertiary-color)
   }
 
 
@@ -167,7 +155,7 @@ header {
 
 /* Code added to address white background issue */
 
-header {
+#bio-body {
   border-bottom: solid #FFd700 4px;
 }
 
@@ -259,6 +247,10 @@ main {
 
 /* Band profile */
 
+#band-profile .card {
+  justify-content: center;
+}
+
 #band-profile .card p {
   font-family: var(--primary-font);
   font-size: 0.75rem;
@@ -279,12 +271,10 @@ main {
   border-bottom: #FFd700 4px;
 }
 
-#the-band {
-  border-left: solid var(--secondary-color) 4px;
-  border-right: solid var(--secondary-color) 4px;
-  border-bottom: solid var(--secondary-color) 4px;
-}
 
+.card {
+  background-color: #f6efdf;
+}
 
 /* Booking page */
 
