@@ -19,46 +19,21 @@ body {
   padding: 0;
 }
 
-
-.heading {
-  background-color: #800080;
-  padding: 20px;
-  color: #ffd700;
-  font-family: var(--secondary-font);
-  text-shadow: var(--secondary-color) 0px 2px;
-  font-size: 2rem;
+body {
+  background-color: var(--primary-color);
 }
 
-h2 {
-    border-top: solid #FFd700 4px;
-     text-shadow: #f5f5dc 0px 0.5px;
-}
- 
-/* Header */
-
-#band-logo-header {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-#bio-header {
-  color: var(--tertiary-color);
-  font-family: var(--secondary-font);
-  padding-top: 10px;
-  text-shadow: #800080 2px 2px 5px;
-  font-size: 2rem;
-}
-
-.header-text {
-  font-size: 1rem;
+/* Cream bg and purple font for all body text under headings*/
+.body {
+  background-color: var(--secondary-color);    
+  font-size: 1.25rem;
   color: #800080;
   font-weight: 400;
 }
 
-i {
-  padding-right: 3px;
+/* Gold top border for all h2 headings */
+h2 {
+    border-top: solid #FFd700 4px;
 }
 
 
@@ -105,145 +80,120 @@ li {
   height: 30px;
   }
 
-  /* Hover Effect - Reverse colors */
-  .navbar-toggler:hover {
+/* Hover Effect - Reverse colors */
+.navbar-toggler:hover {
   background-color: var(--tertiary-color); 
-  
-  /* External content - from W3C.com - to replace Bootstrap's black colored SVG img with gold equivalent*/
-  }
-  .navbar-toggler:hover .navbar-toggler-icon {
-    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="black" stroke-width="3" stroke-linecap="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); 
-  }
-  /* End of external content */
-
-
-  /* Collapsable menu */
-  .navbar-nav .nav-link {
-    color: #f5f5dc; /* Cream */
-    transition: color 0.3s ease-in-out; /* Smooth transition */
   }
 
-  /* Selected (active/hovered) menu text */
-  .navbar-nav .nav-link:hover,
-  .navbar-nav .nav-link:focus,
-  .navbar-nav .nav-link.active {
-    color: var(--tertiary-color);
-    font-weight: 400;
+/* External content - from W3C.com - to replace Bootstrap's black colored SVG img with gold equivalent*/
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="black" stroke-width="3" stroke-linecap="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); 
+  }
+/* End of external content */
+
+
+/* Collapsable menu */
+.navbar-nav .nav-link {
+  color: #f5f5dc; /* Cream */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
   }
 
-  .btn {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-  }
-
-  .btn:hover {
-    background-color: #ff1493;
-    color: var(--tertiary-color)
-  }
-
-
-  
-/* Header */
-header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: var(--primary-font);
+/* Selected (active/hovered) menu text */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
   color: var(--tertiary-color);
-  font-size: 1rem;
+  font-weight: 400;  
 }
 
-/* Code added to address white background issue */
-
-#bio-body {
-  border-bottom: solid #FFd700 4px;
+.btn {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 
-header,
-main {
-  background-color: var(--primary-color);
-
+.btn:hover {
+  background-color: #ff1493;
+  color: var(--tertiary-color)
 }
+
+/* Header */
 
 #band-logo-header {
   max-width: 300px;
   height: auto;
-  text-shadow: #000000 3px 3px 2px;
+  display: block;
+  margin: 0 auto;
 }
 
 #logo-wrapper {
   background-color: #f6efdf;
 }
 
-#bio {
-  margin-bottom: 8px;
-}
-
 #bio-header {
   background-color: #1e90ff;
-  border-top: solid #800080 1px;
-  border-bottom: solid #800080 1px;
-  color:#FFd700
+  border-top: solid #800080 2px;
+  border-bottom: solid #800080 2px;
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font);
+  font-size: 2rem;
 }
 
-#bio-body {
-  background-color: #f6efdf;
+i {
+  padding-right: 3px;
 }
+
 
 /* Services Section */
 
-
-#services > div {
-  border-bottom: solid #FFd700 4px;
+.heading {
+  padding: 20px;
+  color: #ffd700;
+  background-color: #800080;
+  font-family: var(--secondary-font);
+  font-size: 2rem;  
 }
 
 #services-header {
   background-color: var(--secondary-color);
 }
 
-#services-table {
-  margin: 20px;
-  border: solid #f6efdf 20px;
-  background-color: #800080;
-}
-
-#services-table .heading {
-  color: #f6efdf;
-  text-shadow: #800080 2px 2px;
-
-}
-
-#services-table .heading p {
-  font-size: 1rem;
-
-}
-
-/* Adds space between icon and title */
 .services {
-  padding: 5px;
+  border: solid #800080 1px;
 }
 
-#availability {
+#availability .table-heading {
   background-color: #ffa500;
 }
 
-#set-times {
+#set-times .table-heading {
   background-color: #1e90ff;
 }
 
-#audio-lighting {
+#audio-lighting .table-heading  {
   background-color: #32cd32;
 }
 
-#options {
+#options .table-heading {
   background-color: #ff1493;
-
 }
 
 .info {
   background-color: var(--secondary-color);
   color: #800080;
+  min-height: 100%;
 }
+
+.table-heading,
+.info {
+  text-align: center;
+}
+
+.table-heading h3 {
+  color: var(--secondary-color);
+  text-shadow: #800080 2px 2px;
+}
+
+
 
 /* Band profile */
 
@@ -271,7 +221,6 @@ main {
   border-bottom: #FFd700 4px;
 }
 
-
 .card {
   background-color: #f6efdf;
 }
@@ -282,10 +231,6 @@ main {
   font-family: var(--secondary-font);
   color: var(--tertiary-color);
   text-shadow: #f5f5dc 0px 0.5px;
-}
-
-#booking-body {
-  background-color: var(--secondary-color);
 }
 
 #bonus-options,
