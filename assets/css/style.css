@@ -161,6 +161,16 @@ i {
   border: solid #800080 1px;
 }
 
+.services.info.body {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  min-height: 150px;
+  text-align: center;
+}
+
 #availability .table-heading {
   background-color: #ffa500;
 }
@@ -196,6 +206,25 @@ i {
 
 
 /* Band profile */
+#the-band div .col-12,
+#the-band div .row {
+  background-color: var(--secondary-color);
+}
+
+#the-band .container,
+#the-band img {
+  border: solid #800080;
+
+}
+
+.test {
+ border: solid #800080;
+}
+
+
+#band-photos {
+  border: solid #800080 3px;
+}
 
 #band-profile .card {
   justify-content: center;
