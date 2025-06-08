@@ -204,26 +204,10 @@ i {
 }
 
 
-
 /* Band profile */
 #the-band div .col-12,
 #the-band div .row {
   background-color: var(--secondary-color);
-}
-
-#the-band .container,
-#the-band img {
-  border: solid #800080;
-
-}
-
-.test {
- border: solid #800080;
-}
-
-
-#band-photos {
-  border: solid #800080 3px;
 }
 
 #band-profile .card {
@@ -279,7 +263,7 @@ i {
   padding: 20px 20px 0 20px;
   color: var(--secondary-color);
   border-top: solid #FFd700 4px;
-  border-bottom: solid #FFd700 4px;
+  border-bottom: solid #ff1493 4px;
 }
 
 
