@@ -155,6 +155,7 @@ At mobile screen size, a toggler appears on the right of the navbar and the coll
 - Google Fonts
 - Font Awesome
 - Favicon
+- WSC.com (SVGs)
 
 ### Tools
 - [Balsamiq](https://balsamiq.com) (wireframes)
