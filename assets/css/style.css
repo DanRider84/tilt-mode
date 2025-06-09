@@ -46,11 +46,10 @@ h2 {
   right: 0;
   top: 0;
   margin-top: 0;
-  padding: 15px 60px;
+  padding: 10px 20px;
   width: 100%;
   z-index: 1000;
   background-color: var(--primary-color);
-  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #stamp-logo {
@@ -62,11 +61,12 @@ h2 {
 
 li {
   color: var(--secondary-color);
+  font-size: 18px;
 }
 
 
 .navbar-toggler {
-  background-color: var(--primary-color); /* Black button */
+  background-color: var(--primary-color);
   padding: 5px;
   border-radius: 6px;
   border: none;
@@ -94,8 +94,8 @@ li {
 
 /* Collapsable menu */
 .navbar-nav .nav-link {
-  color: #f5f5dc; /* Cream */
-  transition: color 0.3s ease-in-out; /* Smooth transition */
+  color: var(--secondary-color);
+  transition: color 0.3s ease-in-out;
   }
 
 /* Selected (active/hovered) menu text */
@@ -103,17 +103,19 @@ li {
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active {
   color: var(--tertiary-color);
-  font-weight: 400;  
+  font-weight: 700;
 }
 
 .btn {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
+  margin-bottom: 0;
+  font-size: 18px;
 }
 
 .btn:hover {
   background-color: #ff1493;
-  color: var(--tertiary-color)
+  color: var(--tertiary-color);
 }
 
 /* Header */
@@ -139,7 +141,7 @@ li {
 }
 
 i {
-  padding-right: 3px;
+  padding-right: 10px;
 }
 
 
