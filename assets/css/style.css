@@ -49,7 +49,6 @@ section {
   right: 0;
   top: 0;
   margin-top: 0;
-  padding: 10px 20px;
   width: 100%;
   z-index: 1000;
   background-color: var(--primary-color);
@@ -67,7 +66,6 @@ li {
   font-size: 18px;
 }
 
-
 .navbar-toggler {
   background-color: var(--primary-color);
   padding: 5px;
@@ -75,8 +73,8 @@ li {
   border: none;
   }
 
+/* External content - from W3C.com - to replace Bootstrap's black colored SVG img with gold equivalent*/
 .navbar-toggler-icon {
-  /* External content - from W3C.com - to replace Bootstrap's black colored SVG img with gold equivalent*/
   background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="gold" stroke-width="3" stroke-linecap="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); 
   /* End of external content */
   width: 30px;
@@ -208,7 +206,6 @@ i {
   text-shadow: #800080 2px 2px;
 }
 
-
 /* Band profile */
 #the-band div .col-12,
 #the-band div .row {
@@ -283,7 +280,6 @@ i {
 
 
 }
-
 #booking-form label
 #booking-form legend {
   color: var(--secondary-color);
@@ -291,12 +287,9 @@ i {
   font-weight: 700;
 
 }
-
 #booking-body legend {
   font-size: 1rem;
 }
-
-
 
 /* Success page */
 
@@ -356,6 +349,7 @@ height: auto;
   color: #800080;
 }
 
+/* Media query for mobile screens - to ensure section appears below navbar*/
 @media (max-width: 768px) {
   section {
     scroll-margin-top: 300px;

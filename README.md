@@ -103,22 +103,30 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 
 ### Images
 
-- Sample imagery includes a picture of the whole band along with individual band member photos displayed in grid form with responsiveness across devices.
+- Sample imagery includes a picture of the whole band along with individual band member photos  displayed in grid form with responsiveness across devices.
 - The band logo is used as a hero image and the navigation bar contains a separate image which consitsts of an extract of text from the bands logo showing the band's name.
+- All images/graphic provided by the band have been obtained directly from Tilt Mode and used with their permission.
 
 ### Responsiveness
+- Bootstrap’s grid system ensures the site is fully responsive across all devices and screen sizes. A mobile first approach was taken, with adjustments necessary for medium, large and extra-large devices.
+- Media query used for mobile screens to ensure each page sections appears below the collapsable navbar when selected.
+- The breakpoints I am using are from Bootstrap (Medium: =>768px Large: =>992px Extra large: =>1200px).
 
-- Bootstrap’s grid system ensures the site is fully responsive across all devices and screen sizes.
-
-## 🧩 Features
-
+## Features
+Layout is easy to use and adheres to the best practices in formatting and styling. Users can easily navigate between sections and have quick and easy access to the contact/booking section to book or raise a query with the band.
 ### Existing Features
+
+#### Navbar
+The navbar was created using Bootstrap classes. It contains:
+- the band's name using graphics from the band's logo to spell out 'Tilt Mode' of left of navbar, which also navigates back to the home section when clicked on.
+- headings/links to each section as well as a CTA booking button (link to the booking form) on the right of navbar.
+At mobile screen size, a toggler appears on the right of the navbar and the collapsable menu containing the section links appears on the left of the sceen. The nooking button and navbar links have a separate contrast of colours when hovered over/selected. 
 
 #### Header
 - Contains the band's logo as a hero image, followed by a band bio.
 
 #### Footer
-- Contains social media links and copyright.
+- Contains social media links using icons from Favicon styled using colours from the pallette and a copyright disclaimer.
 
 #### Additional Sections
 - The Band: a section containing band images and details of the band members.
@@ -130,10 +138,13 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 ### Future Enhancements
 
 - Event calendar with upcoming gig dates.
-- Additional videos of band performances.
+- Photo & video gallery.
+- Setlist examples.
+- Audio recordings of band performances.
 - Embedded Youtube promo video of band performance - potentially below hero image.
+- Testimonials section.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Languages
 - HTML  
@@ -146,9 +157,13 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 - Favicon
 
 ### Tools
-- [Balsamiq](https://balsamiq.com) (wireframes)  
+- [Balsamiq](https://balsamiq.com) (wireframes)
+- GitHub
+- W3C HTML Validation Service
+- W3C CSS Validation Service
+- Microsoft Paint
 
-## ✅ Testing
+## Testing
 
 ### Bugs Fixed
 
@@ -157,6 +172,7 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 ### Code Validation
 
 #### HTML
+I have used W3C HTML Validation Service. I have tested 3 html files. They all came back without errors.
 
 #### CSS
 
@@ -170,7 +186,7 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 
 ### Browser Testing
 
-## 🚀 Deployment
+## Deployment
 
 ### To deploy the project
 
@@ -178,4 +194,6 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 
 ### To clone the project
 
-## 🙌 Credits
+## Credits
+- Simen Dahlin - reviewer
+- Tilt Mode - use of band member names and photos
