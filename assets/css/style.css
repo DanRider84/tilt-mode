@@ -292,11 +292,29 @@ i {
 
 
 /* Success page */
+
+#success {
+  background-color: #1e90ff;
+  border-top: solid #FFd700 5px;
+  border-bottom: solid #FFd700 5px;
+  max-width: 1320px;
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+
 #success h1 {
   font-family: var(--secondary-font);
   color: var(--tertiary-color);
+  font-size: 3em;
 }
 
+#success p {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-weight: 400;
+}
 
 /* Footer */
 footer {
