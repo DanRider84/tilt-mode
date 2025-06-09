@@ -12,7 +12,6 @@
 }
 
 /* Global styles */
-
 html,
 body {
   margin: 0;
@@ -21,6 +20,10 @@ body {
 
 body {
   background-color: var(--primary-color);
+}
+
+section {
+  scroll-margin-top: 70px;
 }
 
 /* Cream bg and purple font for all body text under headings*/
@@ -34,10 +37,6 @@ body {
 /* Gold top border for all h2 headings */
 h2 {
     border-top: solid #FFd700 4px;
-}
-
-section {
-  scroll-margin-top: 70px;
 }
 
 /* Navbar & Buttons */
@@ -120,7 +119,6 @@ li {
 }
 
 /* Header */
-
 #band-logo-header {
   max-width: 300px;
   height: auto;
@@ -147,7 +145,6 @@ i {
 
 
 /* Services Section */
-
 .heading {
   padding: 20px;
   color: #ffd700;
