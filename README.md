@@ -166,6 +166,16 @@ At mobile screen size, a toggler appears on the right of the navbar and the coll
 
 ### Bugs Fixed
 
+| Bug                            | Status | Description                                              | Steps to Resolve                                                                 |
+|--------------------------------|--------|----------------------------------------------------------|----------------------------------------------------------------------------------|
+| Style not applied to classes   | Fixed  | CSS styles weren't applying due to selector mismatch     | Used HTML validator to identify incorrect class usage; corrected selectors      |
+| Button hover not working       | Fixed  | Buttons didn't react on hover/click                      | Removed space in button: hover selector after CSS validation                   |
+| Sections misaligned/overflow  | Fixed  | Layout issues with vertical alignment and overflow       | Fixed Bootstrap grid nesting with validator and ChatGPT guidance                |
+| Nav menu hugging screen edge  | Fixed  | Nav items were too close to screen edge on mobile        | Added Bootstrap container and adjusted padding for spacing                      |
+| Collapsible menu not closing  | Fixed  | Navbar didn’t auto-collapse after clicking a link        | Added JS script to close collapse on link click                                 |
+| Contact form not submitting   | Fixed  | Submit button didn’t trigger action                      | Reviewed form setup and ensured correct name, method, and action values   |
+| Image not scaling on mobile   | Fixed  | Band photos overflowed on small screens                  | Added responsive Bootstrap classes (img-fluid)                                |
+
 
 ### Responsiveness Tests
 
