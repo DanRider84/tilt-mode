@@ -251,12 +251,12 @@
                         and a setlist tailored to your crowd.
                     </p>
                     <p class="mb-0 py-2">Use the form below to check availability, request a quote, or ask us anything.
-                        Let’s make your event one to remember!</p>
+                        Let's make your event one to remember!</p>
                 </div>
             </div>
 
             <!--Booking form -->
-            <div id="booking-form" class="container pt-4 mb-0">
+            <div id="booking-form" class="container pt-4">
                 <div class="row g-0">
                     <div class="col-12">
                         <h3>Booking/Enquiry Form</h3>
@@ -264,26 +264,25 @@
                     <div class="col-12 pt-3">
                         <form action="success.html" method="GET">
                             <div class="row">
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-6 col-xl-3 pt-3">
                                     <label for="name" class="form-label">Name</label>
                                     <input class="form-control" id="name" name="name" type="text" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-6 col-xl-3 pt-3">
                                     <label for="email" class="form-label">Email</label>
                                     <input class="form-control" id="email" name="email" type="email" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-6 col-xl-3 pt-3">
                                     <label for="phone" class="form-label">Phone number</label>
                                     <input class="form-control" id="phone" name="phone" type="tel" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
-                                    <label for="venue-business" class="form-label">Venue/Business Name (as
-                                        applicable)</label>
+                                <div class="col-12 col-md-6 col-xl-3 pt-3">
+                                    <label for="venue-business" class="form-label">Venue/Business Name</label>
                                     <input class="form-control" id="venue-business" name="venue-business" type="text"
                                         required>
                                 </div>
                                 <!-- Drop-down menu -->
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-6 col-lg-7 col-xl-3 pt-3">
                                     <label for="event-type" class="form-label">Event type</label>
                                     <select id="event-type" class="form-select" name="event-type" required>
                                         <option value="" disabled selected>Select an event type</option>
@@ -296,19 +295,19 @@
                                     </select>
                                 </div>
 
-                                <div class="col-12 col-lg-3 mb-3 pt-3">
+                                <div class="col-12 col-md-3 col-xl-3 pt-4">
                                     <label for="booking-date">Booking date:</label>
                                     <input id="booking-date" type="date" name="booking-date">
                                 </div>
-                                <div class="col-12 col-lg-3 mb-3 pt-2">
+                                <div class="col-12 col-md-3 col-xl-3 pt-4">
                                     <label for="booking-time">Booking time:</label>
                                     <input id="booking-time" type="time" name="booking-time">
                                 </div>
 
                                 <!-- Checkbox options -->
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-4 mt-4">
                                     <fieldset>
-                                        <legend id="bonus-options" class="mt-3">Bonus options:</legend>
+                                        <legend id="bonus-options">Bonus options:</legend>
                                         <div class="form-check">
                                             <input id="customised-set" type="checkbox" name="bonus-options"
                                                 value="customised-set" class="form-check-input">
@@ -319,27 +318,28 @@
                                             <input id="dj-playlist" type="checkbox" name="bonus-options"
                                                 value="dj-playlist" class="form-check-input">
                                             <label for="dj-playlist" class="form-check-label">DJ playlist between
-                                                sets</label>
+                                                sets
+                                            </label>
                                         </div>
 
                                         <div class="form-check">
                                             <input id="first-dance" type="checkbox" name="bonus-options"
                                                 value="first-dance" class="form-check-input">
                                             <label for="first-dance" class="form-check-label">First dance
-                                                request</label>
+                                                request
+                                            </label>
                                         </div>
 
                                         <div class="form-check">
                                             <input id="other-options" type="checkbox" name="bonus-options" value="other"
                                                 class="form-check-input">
-                                            <label for="other-options" class="form-check-label">Other (describe
-                                                below)</label>
+                                            <label for="other-options" class="form-check-label">Other (describe below)</label>
                                         </div>
                                     </fieldset>
                                 </div>
 
                                 <!-- Radio button options -->
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-md-4 mt-4">
                                     <fieldset>
                                         <legend id="set-time">Set Time:</legend>
                                         <input id="45-mins" type="radio" name="set-times" value="45-mins">
@@ -357,7 +357,7 @@
                                 </div>
 
 
-                                <div class="col-12 mt-2">
+                                <div class="col-12 mt-4">
                                     <h4>Message</h4>
                                     <label for="message" class="visually-hidden">message</label>
                                     <textarea id="message" class="form-control" name="message" rows="6"

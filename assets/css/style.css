@@ -268,12 +268,16 @@ i {
   border-bottom: solid #ff1493 4px;
 }
 
-
 #booking-form h3 {
   font-family: var(--secondary-font);
   color: var(--tertiary-color);
   font-size: 1.6rem;
   text-shadow: #000000 1px 1px;
+}
+
+#booking-form h4 {
+  font-size: 1rem;
+
 
 }
 
