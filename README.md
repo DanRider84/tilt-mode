@@ -2,7 +2,7 @@
 
 A responsive promotional website for a real-life rock covers band caled Tilt-Mode, designed to showcase the band’s services, introduce band members, display media content, and enable users to follow/connect with the band via its social media channels and for potential customers to book the band for live events and private functions.
 
-## 📚 Contents
+## Contents
 
 - [User Goals](#user-goals)  
 - [User Stories](#user-stories)  
@@ -35,7 +35,7 @@ A responsive promotional website for a real-life rock covers band caled Tilt-Mod
   - [To clone the project](#to-clone-the-project)  
 - [Credits](#credits)
 
-## 🎯 User Goals
+## User Goals
 
 - User friendly navigation.
 - Site works well on all devices.
@@ -44,7 +44,7 @@ A responsive promotional website for a real-life rock covers band caled Tilt-Mod
 - Connect with band via social media.
 
 
-## 👤 User Stories
+## User Stories
 
 - As a user I want to learn more about the band and its members.
 - As a user, I want to see the band’s photos and videos.
@@ -56,14 +56,14 @@ A responsive promotional website for a real-life rock covers band caled Tilt-Mod
 - As a user, I want the content to be accessible for anyone with diverse needs.
 
 
-## 🎸 Website Goals and Objectives
+## Website Goals and Objectives
 
 - Attract more bookings through venue owners, agencies and event/party planners.
 - Build band awareness and drive traffic to the band’s online platforms.
 - Present media that captures the energy and appeal of the band.
 - Act as a digital business card and portfolio for the band.
 
-## 🧱 Wireframes
+## Wireframes
 
 Wireframes were created using **Balsamiq** to plan the site layout and user experience in desktop, tablet and mobile formats.
 
@@ -77,7 +77,7 @@ Wireframes were created using **Balsamiq** to plan the site layout and user expe
 <a href="./docs/Desktop.pdf" title="Desktop Wireframes">Desktop Wireframes</a>
 </p>
 
-## 🎨 Design Choices
+## Design Choices
 
 ### Typography
 
@@ -158,41 +158,103 @@ At mobile screen size, a toggler appears on the right of the navbar and the coll
 
 ### Tools
 - [Balsamiq](https://balsamiq.com) (wireframes)
-- GitHub
-- W3C HTML Validation Service
-- W3C CSS Validation Service
-- Microsoft Paint
+- [GitHub](https://github.com)
+- [W3C HTML Validation Service](https://validator.w3.org)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator)
 
 ## Testing
 
 ### Bugs Fixed
 
+
 ### Responsiveness Tests
+
+## Responsive Design Test Results
+To test the responsiveness, I followed the mobile-first strategy and verified all of my modifications using the DevTools browsers for Google Chrome. Deployed versions were tested using the external website [Responsive Design Checker](https://responsivedesignchecker.com/).
+
+
+| Size | Device Example         | Navigation | Element Alignments | Content Placement | Functionality |
+|------|------------------------|------------|---------------------|-------------------|---------------|
+| sm   | iPhone 11 Pro          | Good       | Good                | Good              | Good          |
+| md   | iPad Mini              | Good       | Good                | Good              | Good          |
+| lg   | iPad Pro               | Good       | Good                | Good              | Good          |
+| xl   | Asus Vivobook Laptop   | Good       | Good                | Good              | Good          |
+| xxl  | Desktop                | Good       | Good                | Good              | Good          |
+
 
 ### Code Validation
 
 #### HTML
-I have used W3C HTML Validation Service. I have tested 3 html files. They all came back without errors.
+I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator) to test 2 html files. The test for the index.html file initially came back with a series of errors that were addressed, before relevant code was re-used for the Success page.
+- Index.html [Initial test](/docs/html-validator-results)
+- Index.html [Final test](/docs/html-validator-index.png)
+
+- [Success.html](/docs/html-validator-success)
 
 #### CSS
+- [style.css](/docs/css-validator-success)
 
 ### User Story Testing
+| User Story                                                                 | Result                                                                                                                                             | Pass |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| As a user I want to learn more about the band and its members.            | The header, ‘The Band’ and booking form sections provide information on the band and its members.                                                  | Yes  |
+| As a user, I want to see the band’s photos and videos.                    | ‘The Band’ section provides photos of the band together and individually. There is a YouTube link in the footer for access to band videos.        | Yes  |
+| As a user, I want to be able to connect with the band via social media.   | The footer provides social media links.                                                                                                            | Yes  |
+| As a user, I need to be able to book the band for an event with ease.     | There is a booking form that is easy to complete.                                                                                                  | Yes  |
+| As a user, I want to be able to contact the band with queries or special requests. | There is a contact section, whereby the enquiry form can be used to raise queries.                                                                 | Yes  |
+| As a user, I want to be able to use the website on a range of devices.    | Website is fully functional on all devices.                                                                                                        | Yes  |
+| As a user, I want navigation to be intuitive.                             | All sections can be accessed with ease from a single page and navbar links which remain visible at all times.                                     | Yes  |
+| As a user, I want the content to be accessible for anyone with diverse needs. | Passed all accessibility tests.                                                                                                                    | Yes  |
 
 ### Feature Testing
+This website was extensively tested for functionality using Chrome Edge developer tools throughout the development process.
 
 ### Accessibility Testing
+I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with diverse needs. All features passed, with exception for 29 contrast errors having been identified with the text used throughout the website. No further action was taken, as there were all light colours (gold/cream) against darker colours (purple and blue).
+!(/documents/wave.png)
+
 
 ### Lighthouse Testing
+The Tilt Mode website has been tested in the Chrome Dev Tools tools using Lighthouse Testing tool which inspects and scores the website for the following criteria:
+- Performance - how quickly a website loads and how quickly users can access it.
+- Accessibility - test analyses how well people who use assistive technologies can use your website.
+- Best Practices - checks whether the page is built on the modern standards of web development.
+- SEO - checks if the website is optimised for search engine result rankings.
+
+![Tests for Desktop on Lighthouse Chrome:](./docs/lighthouse-desktop.png)
+![Tests for Mobile on Lighthouse Chrome:](./docs/lighthouse-mobile.png)
+
 
 ### Browser Testing
+The Tilt Mode website was examined for bugs and malfunctions using Google Chrome and selected for further testing.
 
 ## Deployment
 
 ### To deploy the project
+The Tilt-Mode website was deployed to GitHub pages via the following steps:
+- Navigate to the repository on GitHub and click on Settings.
+- In the side navigation and select Pages.
+- In the None dropdown and choose Main.
+- Click on the Save button.
+- The website is now live at https://danrider84.github.io/tilt-mode/.
 
 ### To fork the project
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
 
 ### To clone the project
+- Log in to GitHub.
+- Navigate to the main page of the repository and click Code.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
 
 ## Credits
 - Simen Dahlin - reviewer
