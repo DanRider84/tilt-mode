@@ -27,7 +27,7 @@
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation bar -->
     <nav id="navbar" class="navbar navbar-expand-md" data-bs-theme="dark">
-        <div class="container-fluid p-0">
+        <div class="container p-0">
             <!-- Logo -->
             <a class="navbar-brand" href="/index.html">
                 <img id="stamp-logo" src="./assets/images/Tilt-mode-nav-logo.png" class="img-fluid" alt="band logo">
@@ -278,11 +278,10 @@
                                 </div>
                                 <div class="col-12 col-md-6 col-xl-3 pt-3">
                                     <label for="venue-business" class="form-label">Venue/Business Name</label>
-                                    <input class="form-control" id="venue-business" name="venue-business" type="text"
-                                        required>
+                                    <input class="form-control" id="venue-business" name="venue-business" type="text">
                                 </div>
                                 <!-- Drop-down menu -->
-                                <div class="col-12 col-md-6 col-lg-7 col-xl-3 pt-3">
+                                <div class="col-12 col-md-6 col-lg-6 col-xl-3 pt-3">
                                     <label for="event-type" class="form-label">Event type</label>
                                     <select id="event-type" class="form-select" name="event-type" required>
                                         <option value="" disabled selected>Select an event type</option>
@@ -356,7 +355,6 @@
                                     </fieldset>
                                 </div>
 
-
                                 <div class="col-12 mt-4">
                                     <h4>Message</h4>
                                     <label for="message" class="visually-hidden">message</label>
@@ -366,7 +364,7 @@
 
                                 <!-- Submit button -->
                                 <button type="submit" class="btn ms-3 mt-3 mb-5 w-auto">Submit</button>
-
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -387,11 +385,11 @@
                             <a id="youtube" aria-label="Visit us on Youtube">
                                 <i class="fa-brands fa-youtube px-4"></i>
                             </a>
-                            <a id="instagram">
-                                <i class="fa-brands fa-square-instagram px-4" aria-label="Visit us on Instagram"></i>
+                            <a id="instagram" aria-label="Visit us on Instagram">
+                                <i class="fa-brands fa-square-instagram px-4"></i>
                             </a>
-                            <a id="facebook">
-                                <i class="fa-brands fa-square-facebook px-4" aria-label="Visit us on Facebook"></i>
+                            <a id="facebook" aria-label="Visit us on Facebook">
+                                <i class="fa-brands fa-square-facebook px-4"></i>
                             </a>
                         </div>
                     </div>
@@ -400,7 +398,7 @@
             <!-- Copyright -->
             <div id="copyright" class="m-0">
                 <div class="row">
-                    <div id="copyright" class="col-12">
+                    <div class="col-12">
                         <p class="m-0 p-0">Copyright © 2025 Tilt Mode. All rights reserved.</p>
                     </div>
                 </div>
