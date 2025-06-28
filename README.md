@@ -1,8 +1,12 @@
-# Band Website
 
-A responsive promotional website for a real-life rock covers band caled Tilt-Mode, designed to showcase the band’s services, introduce band members, display media content, and enable users to follow/connect with the band via its social media channels and for potential customers to book the band for live events and private functions.
+# Tilt Mode Website
+[Tilt Mode](https://danrider84.github.io/tilt-mode/)
 
-## Contents
+A responsive promotional website for a real-life rock covers band caled Tilt Mode, designed to showcase the band’s services, introduce band members, display media content, and enable users to follow/connect with the band via its social media channels and for potential customers to book the band for live events and private functions.
+
+![Tilt Mode](docs/mockup.png)
+
+## [Contents](#contents)
 
 - [User Goals](#user-goals)  
 - [User Stories](#user-stories)  
