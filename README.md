@@ -210,9 +210,13 @@ I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator) to
 - [style.css](/docs/css-validator-success)
 
 ### User Story Testing
+- [Evidence #1](/docs/user-story-testing-evidence-1.pdf)
+- [Evidence #2](/docs/user-story-testing-evidence-2.pdf)
+- [Evidence #3](/docs/user-story-testing-evidence-3.pdf)
+
 | User Story                                                                 | Result                                                                                                                                             | Pass |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| As a user I want to learn more about the band and its members.            | The header, ‘The Band’ and booking form sections provide information on the band and its members.                                                  | Yes  |
+| As a user I want to learn more about the band and its members.            | The 'Home', ‘The Band’ and 'Contact' sections provide information on the band and its members.                                                  | Yes  |
 | As a user, I want to see the band’s photos and videos.                    | ‘The Band’ section provides photos of the band together and individually. There is a YouTube link in the footer for access to band videos.        | Yes  |
 | As a user, I want to be able to connect with the band via social media.   | The footer provides social media links.                                                                                                            | Yes  |
 | As a user, I need to be able to book the band for an event with ease.     | There is a booking form that is easy to complete.                                                                                                  | Yes  |
