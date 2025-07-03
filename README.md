@@ -200,14 +200,14 @@ To test the responsiveness, I followed the mobile-first strategy and verified al
 ### Code Validation
 
 #### HTML
-I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator) to test 2 html files. The test for the index.html file initially came back with a series of errors that were addressed, before relevant code was re-used for the Success page.
-- Index.html [Initial test](/docs/html-validator-results)
-- Index.html [Final test](/docs/html-validator-index.png)
-
-- [Success.html](/docs/html-validator-success)
+I have used [W3C HTML Validation Service](https://validator.w3.org/) to test 2 html files. The test for the index.html file initially came back with a series of errors that were addressed, before relevant code was re-used for the success page.
+- [index.html - initial test results](/docs/html-validator-results.pdf)
+- [index.html - re-test success page](/docs/html-validator-index.png)
+- [success.html - success page](/docs/html-validator-success-page.png)
 
 #### CSS
-- [style.css](/docs/css-validator-success)
+I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator) to test the CSS file. There were no errors returned: 
+- [CSS validator success page](/docs/css-validator.png)
 
 ### User Story Testing
 - [Evidence #1](/docs/user-story-testing-evidence-1.pdf)
