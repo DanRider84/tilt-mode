@@ -72,13 +72,13 @@ A responsive promotional website for a real-life rock covers band caled Tilt Mod
 Wireframes were created using **Balsamiq** to plan the site layout and user experience in desktop, tablet and mobile formats.
 
 <p>
-<a href="./docs/Mobile.pdf" title="Mobile Wireframes">Mobile Wireframes</a>
+<a href="/docs/mobile.pdf" title="Mobile Wireframes">Mobile Wireframes</a>
 </p>
 <p>
-<a href="./docs/Tablet.pdf" title="Tablet Wireframes">Tablet Wireframes</a>
+<a href="/docs/Tablet.pdf" title="Tablet Wireframes">Tablet Wireframes</a>
 </p>
 <p>
-<a href="./docs/Desktop.pdf" title="Desktop Wireframes">Desktop Wireframes</a>
+<a href="/docs/Desktop.pdf" title="Desktop Wireframes">Desktop Wireframes</a>
 </p>
 
 ## Design Choices
