@@ -75,10 +75,10 @@ Wireframes were created using **Balsamiq** to plan the site layout and user expe
 <a href="/docs/mobile.pdf" title="Mobile Wireframes">Mobile Wireframes</a>
 </p>
 <p>
-<a href="/docs/Tablet.pdf" title="Tablet Wireframes">Tablet Wireframes</a>
+<a href="/docs/tablet.pdf" title="Tablet Wireframes">Tablet Wireframes</a>
 </p>
 <p>
-<a href="/docs/Desktop.pdf" title="Desktop Wireframes">Desktop Wireframes</a>
+<a href="/docs/desktop.pdf"Desktop Wireframes">Desktop Wireframes</a>
 </p>
 
 ## Design Choices
