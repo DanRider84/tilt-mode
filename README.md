@@ -96,13 +96,13 @@ It is a bold, sans-serif display font with a playful and retro style. Its exagge
 
 ### Colour Scheme
 
-- The color scheme chosen is based on the band's logo shown in the header.
+- The colour scheme chosen is based on the band's logo shown in the header.
 - The header and footer will have a black (#00000) background to suit the rock theme of the band.
 - Other colors in the palette will be used throughout the website to capture the 90s retro fun/party theme represented by those colors, also in contrast of the black.
 
 <img src="./docs/color-palette.png" alt="Colors Scheme" style="max-width: 100%;">
 
-<img src="./assets/images/logo.JPG" alt="Colors Scheme" style="max-width: 10%;">
+<img src="./assets/images/logo.jpg" alt="Colors Scheme" style="max-width: 10%;">
 
 
 ### Images
